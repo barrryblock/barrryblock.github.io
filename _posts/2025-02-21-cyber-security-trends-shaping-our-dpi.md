@@ -105,7 +105,7 @@ Thanks for joining me on this whirlwind look at all things cyber. Stay sharp, up
 
 ## References
 
-[^1]: **[National Health Service (NHS) Cyberattack (UK)]**(https://www.bbc.co.uk/news/articles/c9777v4m8zdo) – Ransomware attack on Synnovis impacting 400GB of stolen patient data, June 3, 2024.  
+[^1]: [National Health Service (NHS) Cyberattack (UK)](https://www.bbc.co.uk/news/articles/c9777v4m8zdo) – Ransomware attack on Synnovis impacting 400GB of stolen patient data, June 3, 2024.  
 [^2]: **LoanDepot Ransomware Attack (US)** – Targeted mortgage lender, compromised 16.6 million customers (January 8, 2024).  
 [^3]: **City of Columbus Ransomware Attack** – Affected personal data of 55% of residents, July 2024.  
 [^4]: **Mass Exploitation of Ivanti Zero-Day Vulnerabilities** – Early 2024, impacted government, military, and critical infrastructure.  
