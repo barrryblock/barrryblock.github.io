@@ -27,6 +27,7 @@ Currently, I am pursuing my **MSc in Cyber Security Engineering** at the **Unive
 ## Blog
 Here, I will share insights on **Cyber Threat Intelligence, Security Automation, Risk Mitigation**, and **emerging cybersecurity trends**. Stay tuned for regular updates!
 
+[Read My Blog](./blog)
 ---
 
 # About Me
