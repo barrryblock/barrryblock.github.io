@@ -1,8 +1,25 @@
-<link rel="stylesheet" href="/assets/css/style.css">
-<script src="/assets/js/darkmode.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="/assets/js/darkmode.js"></script>
+</head>
+<body>
+    {% include header.html %} <!-- Ensure this exists -->
+    
+    <div class="toggle-container">
+        <span>🌞</span>
+        <div class="toggle-switch" onclick="toggleDarkMode()"></div>
+        <span>🌙</span>
+    </div>
+    
+    <main>
+        {{ content }}
+    </main>
 
-<div class="toggle-container">
-    <span>🌞</span>
-    <div class="toggle-switch" onclick="toggleDarkMode()"></div>
-    <span>🌙</span>
-</div>
+    {% include footer.html %} <!-- Ensure this exists -->
+</body>
+</html>
