@@ -99,13 +99,14 @@ So, how do we protect ourselves from this relentless barrage of threats? Here’
 
 Our digital identity infrastructure is as fragile as it is vital—just ask the folks in El Salvador, Italy[^12], or any of the many places that suffered massive data breaches affecting millions. The key to staving off chaos is sustained vigilance, a willingness to invest in robust security frameworks, and a healthy dash of paranoia (okay, maybe just a pinch).
 
-The future of digital infrastructure stands on the shoulders of institutions like the Alan Turing Institute, which highlights the critical need for cross-sector collaboration, advanced identity verification, and proactive monitoring. In the meantime, keep your antivirus up to date, embrace multi-factor authentication like your life depends on it (it might!), and remember: Cybersecurity might be serious business, but we can still keep it lively, engaging, and—dare I say—fun to talk about.
+The future of digital infrastructure highlights the critical need for cross-sector collaboration, advanced identity verification, and proactive monitoring. In the meantime, keep your antivirus up to date, embrace multi-factor authentication like your life depends on it (it might!), and remember: Cybersecurity might be serious business, but we can still keep it lively, engaging, and—dare I say—fun to talk about.
 
-Thanks for joining me on this whirlwind look at all things cyber. Stay sharp, update your software, and come back soon for more cybersecurity insights that (hopefully) won’t put you to sleep.
+Thanks for joining me on this whirlwind look at all things cyber. Stay sharp, update your software, and come back soon for more cybersecurity insights.
 
 ## References
 
-[^1]: [National Health Service (NHS) Cyberattack (UK)](https://www.bbc.co.uk/news/articles/c9777v4m8zdo) – Ransomware attack on Synnovis impacting 400GB of stolen patient data, June 3, 2024.  
+[^1]: [National Health Service (NHS) Cyberattack (UK)](https://www.bbc.co.uk/news/articles/c9777v4m8zdo) – Ransomware attack on Synnovis impacting 400GB of stolen patient data, June 3, 2024.
+
 [^2]: [LoanDepot Ransomware Attack (US)](https://investors.loandepot.com/news/corporate-and-financial-news/corporate-and-financial-news-details/2024/loanDepot-Provides-Update-on-Cyber-Incident/default.aspx) – Targeted mortgage lender, compromised 16.6 million customers (January 8, 2024).  
 
 [^3]: [City of Columbus Ransomware Attack](https://www.cybersecuritydive.com/news/columbus-ohio-ransomware-500k/732154/) – Affected personal data of 55% of residents, July 2024.  
@@ -127,4 +128,5 @@ Thanks for joining me on this whirlwind look at all things cyber. Stay sharp, up
 [^11]: [Change HealthCare breach](https://techcrunch.com/2025/01/27/how-the-ransomware-attack-at-change-healthcare-went-down-a-timeline/) - A massive infiltration into the US healthcare payment provider led to 100 million individual data breach notices and forced a $22 million ransom payment.
 
 [^12]: [InfoCert Italy Breach](https://www.biometricupdate.com/202501/italian-digital-identity-provider-suffers-data-breach-5-5m-customers-affected) - InfoCert reported a breach impacting 5.5 million customers, exposing phone numbers, email addresses, and other personal data.
+
 ---
