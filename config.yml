@@ -1,4 +1,4 @@
-name: My Cyber Security Blog
+name: My Portfolio and Blog
 markdown: kramdown
 theme: minima
 plugins:
@@ -36,3 +36,7 @@ navigation:
     url: /blog/
   - title: About
     url: /about/
+  - title: Contact
+    url: /contact/
+  - title: Projects
+    url: /projects/

@@ -15,18 +15,7 @@ I started as a **Software Engineer** at CGI, where I contributed to **cloud secu
 My current research at **The Alan Turing Institute** focuses on **automating Cyber Threat Intelligence (CTI)** and **securing biometric data in Zero Trust Networks**.
 
 
-## Projects
-### **Cyber Threat Intelligence Observatory**
-- Designed and developed a **CTI observatory**, integrating **OpenCTI** with **Microsoft Sentinel** to automate threat ingestion.
-- Aggregated and analyzed threat intelligence related to **digital identity risks**.
 
-### **Privacy-Enhancing Technologies in Zero Trust Network**
-- Focused on **biometric security on Android devices** using **Trusted Execution Environment (TEE)**.
-- Developed **Flask API** for server-side verification and performed **device attestation** to ensure app authenticity.
-
-### **Cloud & Virtualization Security Hardening**
-- Hardened **containerized cloud environments** by configuring **AppArmor and SecComp profiles**.
-- Conducted security audits using **Docker Bench Security** and **Grype** to ensure compliance.
 
 ## Skills
 - **Languages & Databases**: .NET (C#), Python, PowerShell, SQL Server, MongoDB
@@ -40,8 +29,4 @@ My current research at **The Alan Turing Institute** focuses on **automating Cyb
 - **1st Place in BU-Wide Hackathons (CGI 2020, 2021)**
 - **Practical Malware Analysis & Triage Certification**
 
-## Contact
-- **GitHub**: [github.com/barrryblock](https://github.com/barrryblock)
-- **LinkedIn**: [linkedin.com/in/johnprasad10](https://linkedin.com/in/johnprasad10)
-- **TryHackMe**: [tryhackme.com/p/blockmanbarry](https://tryhackme.com/p/blockmanbarry)
-- **Email**: blockmanbarry10@gmail.com
+
