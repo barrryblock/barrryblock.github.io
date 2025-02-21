@@ -2,30 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
     <link rel="stylesheet" href="/assets/css/style.css">
     <script src="/assets/js/darkmode.js"></script>
+
     <style>
-        body {
-            font-family: 'Poppins', sans-serif;
+        /* Prevent Content from Overlapping Menu Icon */
+        main {
+            padding-top: 60px; /* Push content down */
         }
     </style>
 </head>
 <body>
-    {% include header.html %} <!-- Ensure this exists -->
-    
-    <div class="toggle-container">
-        <span>🌞</span>
-        <div class="toggle-switch" onclick="toggleDarkMode()"></div>
-        <span>🌙</span>
-    </div>
-    
+    {% include header.html %} <!-- Sidebar Navigation -->
+
     <main>
         {{ content }}
     </main>
 
-    {% include footer.html %} <!-- Ensure this exists -->
+    {% include footer.html %}
 </body>
 </html>

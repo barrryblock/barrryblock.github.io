@@ -1,95 +1,81 @@
 <header>
-    <div class="sidebar" id="sidebar">
-        <button class="close-btn" onclick="toggleSidebar()">✖</button>
-        <h2>Navigation</h2>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="/projects">Projects</a></li>
-            <li><a href="/contact">Contact</a></li>
-        </ul>
+    <!-- Sidebar -->
+    <div id="sidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="/">🏠 Home</a>
+        <a href="/about">👤 About</a>
+        <a href="/blog">📝 Blog</a>
+        <a href="/projects">🚀 Projects</a>
+        <a href="/contact">📩 Contact</a>
     </div>
 
-    <button class="menu-btn" onclick="toggleSidebar()">☰</button>
+    <!-- Open Sidebar Button -->
+    <span class="openbtn" onclick="openNav()">☰</span>
 </header>
 
+<!-- Sidebar Styling -->
 <style>
-    /* Sidebar Styling */
+    /* Sidebar Styles */
     .sidebar {
         height: 100%;
-        width: 250px;
+        width: 0;
         position: fixed;
-        left: -260px;
         top: 0;
-        background-color: #2a2a2a;
-        color: white;
-        padding-top: 20px;
-        transition: left 0.4s ease-in-out;
-        box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+        left: 0;
+        background-color: #1e3c72;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
     }
 
-    .sidebar h2 {
-        text-align: center;
-        margin-bottom: 20px;
-        font-size: 1.5rem;
-    }
-
-    .sidebar ul {
-        list-style: none;
-        padding: 0;
-    }
-
-    .sidebar ul li {
-        padding: 15px;
-        text-align: center;
-    }
-
-    .sidebar ul li a {
-        color: white;
+    .sidebar a {
+        padding: 12px 25px;
         text-decoration: none;
         font-size: 1.2rem;
-        display: block;
-        transition: background 0.3s ease;
-    }
-
-    .sidebar ul li a:hover {
-        background: #444;
-    }
-
-    .close-btn {
-        background: none;
-        border: none;
         color: white;
-        font-size: 1.5rem;
-        padding: 10px;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .sidebar a:hover {
+        background: rgba(255, 255, 255, 0.2);
+    }
+
+    .closebtn {
         position: absolute;
         top: 10px;
-        right: 15px;
-        cursor: pointer;
-    }
-
-    /* Menu Button */
-    .menu-btn {
-        position: fixed;
-        top: 15px;
-        left: 15px;
-        background: none;
-        border: none;
-        color: black;
+        right: 20px;
         font-size: 2rem;
         cursor: pointer;
-        z-index: 1000;
+        color: white;
     }
 
-    /* Sidebar Active State */
-    .sidebar.active {
-        left: 0;
+    /* Open Sidebar Button - Moved Lower */
+    .openbtn {
+        font-size: 1.8rem;
+        cursor: pointer;
+        background-color: transparent;
+        color: #1e3c72;
+        padding: 10px 20px;
+        border: none;
+        position: absolute;
+        top: 20px; /* Push icon lower */
+        left: 15px;
+        z-index: 10;
+    }
+
+    .openbtn:hover {
+        color: #2a5298;
     }
 </style>
 
+<!-- Sidebar Toggle Script -->
 <script>
-    function toggleSidebar() {
-        document.getElementById("sidebar").classList.toggle("active");
+    function openNav() {
+        document.getElementById("sidebar").style.width = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("sidebar").style.width = "0";
     }
 </script>
