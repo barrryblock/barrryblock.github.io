@@ -11,7 +11,7 @@
 
 Welcome to my very first blog post on cybersecurity! While that might sound like the beginning of a snooze-fest, I promise you this ride will be filled with witty anecdotes, glaring red flags, and plenty of “really, they hacked _that_?” moments. Strap in, because it’s time to talk about how our digital infrastructures—those vital services we rely on every day—are under siege by sneaky ransomware gangs, shadowy state-sponsored attackers, and some downright audacious amateurs who’ve watched way too many hacker movies.
 
-But don’t just take my word for it. I recently prepared a report for the Alan Turing Institute on **Cyber Trends in Digital Public Infrastructure** (yes, that Alan Turing—father of modern computing, codebreaker extraordinaire, and all-around genius). Let’s unpack some of the key points from this research and, most importantly, discover what on earth we can do to protect ourselves. :contentReference[oaicite:0]{index=0}
+But don’t just take my word for it. I recently prepared a report for the Alan Turing Institute on **Cyber Trends in Digital Public Infrastructure** (yes, that Alan Turing—father of modern computing, codebreaker extraordinaire, and all-around genius). Let’s unpack some of the key points from this research and, most importantly, discover what on earth we can do to protect ourselves. 
 
 ---
 
@@ -19,22 +19,36 @@ But don’t just take my word for it. I recently prepared a report for the Alan 
 
 ### 1. Ransomware: Pay Up or Pack Up
 Ransomware is the seasoned pickpocket of the cyber world—slipping into your systems, encrypting data, and demanding a hefty ransom for its release. From healthcare facilities losing access to patient records to local governments freezing out their residents’ data, it’s high-stakes extortion that can put daily life on hold.  
+
+In 2024, we saw healthcare systems, municipalities, and even financial institutions grind to a halt under these threats. For instance, NHS pathology testing provider Synnovis was hit, exposing sensitive patient data and disrupting thousands of appointments [^1]. LoanDepot, a major US mortgage lender, also saw 16.6 million customer records compromised [^2]. City governments, such as Columbus, Ohio, faced significant upheaval, with personal data of over half its residents at risk [^3]. 
+
 **Pro Tip:** Regularly back up your data and test your recovery process. Otherwise, you could be stuck paying the digital equivalent of protection money.
 
 ### 2. Zero-Day Exploits: Guess Who Didn’t Update?
-A zero-day exploit is like a skeleton key hackers discover before anyone else even knows it exists. This means vendors haven’t patched it, and you’re left hoping your firewall has had its morning coffee. Ivanti Connect Secure is one example that saw widespread exploitation. :contentReference[oaicite:1]{index=1}  
+A zero-day exploit is like a skeleton key hackers discover before anyone else even knows it exists. This means vendors haven’t patched it, and you’re left hoping your firewall has had its morning coffee. Ivanti Connect Secure is one example that saw widespread exploitation [^4].   
+
 **Pro Tip:** Patch early, patch often. And if your system admin says, “We’ll patch it tomorrow,” buy them coffee and gently suggest doing it _today_.
 
 ### 3. Supply Chain Attacks: Targeting the Middle Man
-Instead of going after a big corporation’s heavily fortified servers, threat actors often infiltrate a third-party supplier who holds the keys to the castle. One breach can mean a domino effect of catastrophic proportions, hitting multiple companies—and sometimes entire government agencies.  
+Instead of going after a big corporation’s heavily fortified servers, threat actors often infiltrate a third-party supplier who holds the keys to the castle. One breach can mean a domino effect of catastrophic proportions, hitting multiple companies—and sometimes entire government agencies. 
+
+Supply chain attacks soared in 2024, with the Snowflake compromise standing out. Threat actors stole credentials from multiple organizations, including Ticketmaster, Santander Bank, and AT&T, all because they compromised a multi-cloud data warehousing platform [^5]. In another incident, vulnerabilities in the MOVEit file transfer system led to breaches at Amazon and Delta Airlines [^6].  
+
 **Pro Tip:** Ensure your vendors follow strict security standards. If your chain is only as strong as its weakest link, you’d better confirm none of them are made of sugar.
 
 ### 4. State-Sponsored Espionage: The Shadow Game
-From infiltration of government agencies to email breaches affecting entire departments, cyber espionage campaigns are no longer just in Hollywood spy thrillers. Whether it’s Volt Typhoon, Storm-0558, or groups with even cooler names, these advanced persistent threats (APTs) can stay hidden for months or years, siphoning off valuable data. :contentReference[oaicite:2]{index=2}  
+From infiltration of government agencies to email breaches affecting entire departments, cyber espionage campaigns are no longer just in Hollywood spy thrillers. 
+
+The Storm-0558 hacking group exploited Microsoft’s authentication tokens, infiltrating US government email accounts [^7]. Volt Typhoon, another group allegedly backed by Chinese state sponsorship, infiltrated critical infrastructure sectors, from communications to water supply [^8].  
+
 **Pro Tip:** Zero Trust Architecture. Verify everyone and everything. Yes, even your printer.
 
 ### 5. Data Brokers & Identity: The Unseen Risk
-You know all those background check services offering any detail on someone for the cost of a latte? Sometimes they get hacked, and _your_ info is part of the loot. Then we have national identity breaches where entire populations’ biometric data, addresses, and phone numbers are posted in the dark corners of the internet.  
+You know all those background check services offering any detail on someone for the cost of a latte? Sometimes they get hacked, and _your_ info is part of the loot. Then we have national identity breaches where entire populations’ biometric data, addresses, and phone numbers are posted in the dark corners of the internet. 
+
+A breach at National Public Data exposed sensitive information (possibly including Social Security numbers) of millions of people across multiple countries [^9]. Meanwhile, a massive breach in El Salvador’s national digital infrastructure compromised the personal data of 5.1 million citizens—including biometric facial photos [^10]—highlighting how national identity systems can become gold mines for cybercriminals.
+
+
 **Pro Tip:** Implement robust encryption and multi-factor authentication. Demand that organizations handling your data do the same—or at least send them a strongly worded email.
 
 ---
@@ -89,4 +103,16 @@ The future of digital infrastructure stands on the shoulders of institutions lik
 
 Thanks for joining me on this whirlwind look at all things cyber. Stay sharp, update your software, and come back soon for more cybersecurity insights that (hopefully) won’t put you to sleep.
 
+## References
+
+[^1]: **National Health Service (NHS) Cyberattack (UK)** – Ransomware attack on Synnovis impacting 400GB of stolen patient data, June 3, 2024.  
+[^2]: **LoanDepot Ransomware Attack (US)** – Targeted mortgage lender, compromised 16.6 million customers (January 8, 2024).  
+[^3]: **City of Columbus Ransomware Attack** – Affected personal data of 55% of residents, July 2024.  
+[^4]: **Mass Exploitation of Ivanti Zero-Day Vulnerabilities** – Early 2024, impacted government, military, and critical infrastructure.  
+[^5]: **Snowflake Attack (June 2024)** – Supply chain breach affecting Ticketmaster, Santander Bank, and AT&T.  
+[^6]: **MOVEit Vulnerability Exploitation** – Late 2024, exposed Amazon employee contact info and Delta Airlines user data.  
+[^7]: **US Government Email Breach (Storm-0558)** – Began May 15, 2023, forging authentication tokens to access Microsoft and Azure AD accounts.  
+[^8]: **Volt Typhoon Infiltration (January 31)** – Disrupted by the US DOJ, infiltration across communications, energy, transportation, and water sectors.  
+[^9]: **Potential Breach of National Public Data (August 2024)** – Public records data broker exposing personal info of possibly hundreds of millions.  
+[^10]: **El Salvador National Data Breach** – Affecting 5.1 million people (80% of the country’s population) with facial photos, phone numbers, addresses, and DUIs.
 ---
