@@ -49,3 +49,29 @@ body.dark-mode {
 .dark-mode .toggle-switch::before {
     transform: translateX(20px);
 }
+
+/* Default Light Mode Footer */
+footer {
+    background: none;
+    color: black;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+}
+
+/* Footer Links */
+footer a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Dark Mode Footer */
+.dark-mode footer {
+    color: white;
+}
+
+/* Dark Mode Footer Links */
+.dark-mode footer a {
+    color: white;
+}
