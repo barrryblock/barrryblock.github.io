@@ -28,6 +28,11 @@ My current research at **The Alan Turing Institute** focuses on **automating Cyb
 - Hardened **containerized cloud environments** by configuring **AppArmor and SecComp profiles**.
 - Conducted security audits using **Docker Bench Security** and **Grype** to ensure compliance.
 
+## Skills
+- **Languages & Databases**: .NET (C#), Python, PowerShell, SQL Server, MongoDB
+- **Security Tools**: Azure Sentinel, OpenCTI, CyberArk, OWASP, Metasploit, MISP
+- **Cloud & DevOps**: Docker, Azure, AWS, CI/CD, Ansible, Apache, IIS
+- **Threat Intelligence & Digital Forensics**: Autopsy, FTK Imager, MITRE ATT&CK, Elastic Stack
 
 ## Certifications & Achievements
 - **TryHackMe Jr. Penetration Tester**
@@ -39,4 +44,4 @@ My current research at **The Alan Turing Institute** focuses on **automating Cyb
 - **GitHub**: [github.com/barrryblock](https://github.com/barrryblock)
 - **LinkedIn**: [linkedin.com/in/johnprasad10](https://linkedin.com/in/johnprasad10)
 - **TryHackMe**: [tryhackme.com/p/blockmanbarry](https://tryhackme.com/p/blockmanbarry)
-- **Email**: john10.pd@outlook.com
+- **Email**: blockmanbarry10@gmail.com

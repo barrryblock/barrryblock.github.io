@@ -1,4 +1,4 @@
-# Welcome to My Cyber Security Portfolio
+# Welcome to my Portfolio
 
 <div style="display: flex; justify-content: space-between;">
   <div style="width: 48%;">
@@ -14,8 +14,4 @@
   </div>
 </div>
 
-## Skills
-- **Languages & Databases**: .NET (C#), Python, PowerShell, SQL Server, MongoDB
-- **Security Tools**: Azure Sentinel, OpenCTI, CyberArk, OWASP, Metasploit, MISP
-- **Cloud & DevOps**: Docker, Azure, AWS, CI/CD, Ansible, Apache, IIS
-- **Threat Intelligence & Digital Forensics**: Autopsy, FTK Imager, MITRE ATT&CK, Elastic Stack
+
