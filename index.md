@@ -31,6 +31,15 @@ Here, I will share insights on **Cyber Threat Intelligence, Security Automation,
 ---
 
 # About Me
+<p align="center">
+  <img src="/assets/images/profile.jpg" alt="John Prasad" width="200" style="
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    filter: drop-shadow(0 0 15px rgba(0,0,0,0.6));
+    backdrop-filter: blur(5px);
+  ">
+</p>
+
 ## Professional Journey
 I started as a **Software Engineer** at CGI, where I contributed to **cloud security projects**, improving compliance frameworks and securing enterprise applications. Later, as a **Senior Software Engineer**, I spearheaded initiatives like **automating compliance retrieval from Exchange Online** and **enhancing governance for 25,000+ shared mailboxes**.
 
