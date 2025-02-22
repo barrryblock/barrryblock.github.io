@@ -18,9 +18,9 @@ My thesis focused on â€œPrivacy Enhancing Technologies in Zero Trust Networks.â€
 
 
 ## Skills
-- **Languages & Databases**: .NET (C#), Python, PowerShell, SQL Server, MongoDB
-- **Security Tools**: Azure Sentinel, OpenCTI, CyberArk, OWASP, Metasploit, MISP
-- **Cloud & DevOps**: Docker, Azure, AWS, CI/CD, Ansible, Apache, IIS
+- **Languages & Databases**: .NET (C#), Python, PowerShell, SQL Server, MongoDB, Bash Scripting, Kotlin
+- **Security Tools**: Azure Sentinel, OpenCTI, OWASP, Metasploit, MISP, Snort(Firewall)
+- **Cloud & DevOps**: Docker, Azure, CI/CD, Ansible, Apache, IIS
 - **Threat Intelligence & Digital Forensics**: Autopsy, FTK Imager, MITRE ATT&CK, Elastic Stack
 
 ## Certifications & Achievements
