@@ -9,7 +9,7 @@
 
 ## Introduction
 
-Welcome to my very first blog post on cybersecurity! While that might sound like the beginning of a snooze-fest, I promise you this ride will be filled with witty anecdotes, glaring red flags, and plenty of “really, they hacked _that_?” moments. Strap in, because it’s time to talk about how our digital infrastructures—those vital services we rely on every day—are under siege by sneaky ransomware gangs, shadowy state-sponsored attackers, and some downright audacious amateurs who’ve watched way too many hacker movies.
+Welcome to my very first blog post on cybersecurity! Although it may seem like a dull topic, you’ll find this post packed with critical insights and plenty of eye-opening red flags. Strap in, because it’s time to talk about how our digital infrastructures—those vital services we rely on every day—are under siege by sneaky ransomware gangs, shadowy state-sponsored attackers, and some downright audacious amateurs who’ve watched way too many hacker movies.
 
 But don’t just take my word for it. I recently prepared a report for the Alan Turing Institute on **Cyber Trends in Digital Public Infrastructure** (yes, that Alan Turing—father of modern computing, codebreaker extraordinaire, and all-around genius). Let’s unpack some of the key points from this research and, most importantly, discover what on earth we can do to protect ourselves. 
 
