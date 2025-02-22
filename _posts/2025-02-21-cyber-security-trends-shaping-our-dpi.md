@@ -44,7 +44,7 @@ The Storm-0558 hacking group exploited Microsoft’s authentication tokens, infi
 **Pro Tip:** Zero Trust Architecture. Verify everyone and everything. Yes, even your printer.
 
 ### 5. Data Brokers & Identity: The Unseen Risk
-You know all those background check services offering any detail on someone for the cost of a latte? Sometimes they get hacked, and _your_ info is part of the loot. Then we have national identity breaches where entire populations’ biometric data, addresses, and phone numbers are posted in the dark corners of the internet. 
+You know all those background check services offering any detail on someone for the cost of a latte? Sometimes they get hacked, and _your_ info is part of the loot. Then we have national identity breaches where entire populations’ biometric data, addresses, and phone numbers are posted in the dark corners of the internet[^11]. 
 
 A breach at National Public Data exposed sensitive information (possibly including Social Security numbers) of millions of people across multiple countries [^9]. Meanwhile, a massive breach in El Salvador’s national digital infrastructure compromised the personal data of 5.1 million citizens—including biometric facial photos [^10]—highlighting how national identity systems can become gold mines for cybercriminals.
 
@@ -78,7 +78,7 @@ So, how do we protect ourselves from this relentless barrage of threats? Here’
    > Example: Configure strict network segments so that if an attacker compromises a single workstation, they don’t waltz into your entire environment.
 
 2. **Embrace Regular Risk Assessments**  
-   Map out your vulnerabilities using frameworks like **STRIDE** and **MITRE ATT&CK**. Keep an up-to-date risk register and measure the impact vs. likelihood of each threat. :contentReference[oaicite:3]{index=3}  
+   Map out your vulnerabilities using frameworks like **NIST Cybersecurity Framework (CSF)**, **CIS Controls**, **FAIR (Factor Analysis of Information Risk)**, **ISO 27001**, and the **Cyber Kill Chain**. Keep an up-to-date risk register and measure the impact vs. likelihood of each threat.  
    > Example: A high-likelihood threat that can cause severe disruption (like a supply chain attack) should shoot straight to the top of your priority list.
 
 3. **Backups: Versioning Is Your Friend**  
@@ -97,22 +97,36 @@ So, how do we protect ourselves from this relentless barrage of threats? Here’
 
 ## Concluding Thoughts
 
-Our digital identity infrastructure is as fragile as it is vital—just ask the folks in El Salvador, Italy, or any of the many places that suffered massive data breaches affecting millions. :contentReference[oaicite:4]{index=4} The key to staving off chaos is sustained vigilance, a willingness to invest in robust security frameworks, and a healthy dash of paranoia (okay, maybe just a pinch).
+Our digital identity infrastructure is as fragile as it is vital—just ask the folks in El Salvador, Italy[^12], or any of the many places that suffered massive data breaches affecting millions. The key to staving off chaos is sustained vigilance, a willingness to invest in robust security frameworks, and a healthy dash of paranoia (okay, maybe just a pinch).
 
-The future of digital infrastructure stands on the shoulders of institutions like the Alan Turing Institute, which highlights the critical need for cross-sector collaboration, advanced identity verification, and proactive monitoring. :contentReference[oaicite:5]{index=5} In the meantime, keep your antivirus up to date, embrace multi-factor authentication like your life depends on it (it might!), and remember: Cybersecurity might be serious business, but we can still keep it lively, engaging, and—dare I say—fun to talk about.
+The future of digital infrastructure highlights the critical need for cross-sector collaboration, advanced identity verification, and proactive monitoring. In the meantime, keep your antivirus up to date, embrace multi-factor authentication like your life depends on it (it might!), and remember: Cybersecurity might be serious business, but we can still keep it lively, engaging, and—dare I say—fun to talk about.
 
-Thanks for joining me on this whirlwind look at all things cyber. Stay sharp, update your software, and come back soon for more cybersecurity insights that (hopefully) won’t put you to sleep.
+Thanks for joining me on this whirlwind look at all things cyber. Stay sharp, update your software, and come back soon for more cybersecurity insights.
 
 ## References
 
-[^1]: **National Health Service (NHS) Cyberattack (UK)** – Ransomware attack on Synnovis impacting 400GB of stolen patient data, June 3, 2024.  
-[^2]: **LoanDepot Ransomware Attack (US)** – Targeted mortgage lender, compromised 16.6 million customers (January 8, 2024).  
-[^3]: **City of Columbus Ransomware Attack** – Affected personal data of 55% of residents, July 2024.  
-[^4]: **Mass Exploitation of Ivanti Zero-Day Vulnerabilities** – Early 2024, impacted government, military, and critical infrastructure.  
-[^5]: **Snowflake Attack (June 2024)** – Supply chain breach affecting Ticketmaster, Santander Bank, and AT&T.  
-[^6]: **MOVEit Vulnerability Exploitation** – Late 2024, exposed Amazon employee contact info and Delta Airlines user data.  
-[^7]: **US Government Email Breach (Storm-0558)** – Began May 15, 2023, forging authentication tokens to access Microsoft and Azure AD accounts.  
-[^8]: **Volt Typhoon Infiltration (January 31)** – Disrupted by the US DOJ, infiltration across communications, energy, transportation, and water sectors.  
-[^9]: **Potential Breach of National Public Data (August 2024)** – Public records data broker exposing personal info of possibly hundreds of millions.  
-[^10]: **El Salvador National Data Breach** – Affecting 5.1 million people (80% of the country’s population) with facial photos, phone numbers, addresses, and DUIs.
+[^1]: [National Health Service (NHS) Cyberattack (UK)](https://www.bbc.co.uk/news/articles/c9777v4m8zdo) – Ransomware attack on Synnovis impacting 400GB of stolen patient data, June 3, 2024.
+
+[^2]: [LoanDepot Ransomware Attack (US)](https://investors.loandepot.com/news/corporate-and-financial-news/corporate-and-financial-news-details/2024/loanDepot-Provides-Update-on-Cyber-Incident/default.aspx) – Targeted mortgage lender, compromised 16.6 million customers (January 8, 2024).  
+
+[^3]: [City of Columbus Ransomware Attack](https://www.cybersecuritydive.com/news/columbus-ohio-ransomware-500k/732154/) – Affected personal data of 55% of residents, July 2024.  
+
+[^4]: [Mass Exploitation of Ivanti Zero-Day Vulnerabilities](https://cloud.google.com/blog/topics/threat-intelligence/investigating-ivanti-zero-day-exploitation/) – Early 2024, impacted government, military, and critical infrastructure. 
+
+[^5]: [Snowflake Attack (June 2024)](https://cloud.google.com/blog/topics/threat-intelligence/unc5537-snowflake-data-theft-extortion) – Supply chain breach affecting Ticketmaster, Santander Bank, and AT&T.  
+
+[^6]: [MOVEit Vulnerability Exploitation](https://www.biometricupdate.com/202411/amazon-delta-employee-pii-exposed-in-data-breaches) – Late 2024, exposed Amazon employee contact info and Delta Airlines user data.  
+
+[^7]: [US Government Email Breach (Storm-0558)](https://www.microsoft.com/en-us/security/blog/2023/07/14/analysis-of-storm-0558-techniques-for-unauthorized-email-access/) – Began May 15, 2023, forging authentication tokens to access Microsoft and Azure AD accounts.  
+
+[^8]: [Volt Typhoon Infiltration (January 31)](https://www.justice.gov/archives/opa/pr/us-government-disrupts-botnet-peoples-republic-china-used-conceal-hacking-critical) – Disrupted by the US DOJ, infiltration across communications, energy, transportation, and water sectors. 
+
+[^9]: [Potential Breach of National Public Data (August 2024)](https://www.biometricupdate.com/202408/data-breach-exposes-3-billion-pii-records-class-action-suits-filed) – Public records data broker exposing personal info of possibly hundreds of millions.  
+
+[^10]: [El Salvador National Data Breach](https://www.biometricupdate.com/202405/el-salvador-data-breach-includes-selfies-and-id-numbers-for-80-of-countrys-population) – Affecting 5.1 million people (80% of the country’s population) with facial photos, phone numbers, addresses, and DUIs.
+
+[^11]: [Change HealthCare breach](https://techcrunch.com/2025/01/27/how-the-ransomware-attack-at-change-healthcare-went-down-a-timeline/) - A massive infiltration into the US healthcare payment provider led to 100 million individual data breach notices and forced a $22 million ransom payment.
+
+[^12]: [InfoCert Italy Breach](https://www.biometricupdate.com/202501/italian-digital-identity-provider-suffers-data-breach-5-5m-customers-affected) - InfoCert reported a breach impacting 5.5 million customers, exposing phone numbers, email addresses, and other personal data.
+
 ---
