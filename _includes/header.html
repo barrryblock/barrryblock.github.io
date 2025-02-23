@@ -15,6 +15,7 @@
 
 <!-- Sidebar Styling -->
 <style>
+    /* Sidebar starts collapsed */
     .sidebar {
         height: 100%;
         width: 0;
@@ -23,9 +24,9 @@
         left: 0;
         background-color: #1e3c72;
         overflow-x: hidden;
-        transition: 0.5s ease-in-out;
+        transition: width 0.4s ease-in-out; /* Smooth transition */
         padding-top: 60px;
-        z-index: 1100; /* Ensure it is on top of images */
+        z-index: 1100; /* Ensures it stays above content */
     }
 
     .sidebar a {
@@ -62,17 +63,17 @@
         position: fixed;
         top: 20px;
         left: 15px;
-        z-index: 1200; /* Ensure it's always clickable */
+        z-index: 1200;
     }
 
     .openbtn:hover {
         color: #2a5298;
     }
 
-    /* Make Sidebar Full Width on Mobile */
+    /* Ensure Sidebar Collapses on Mobile */
     @media (max-width: 768px) {
         .sidebar {
-            width: 100% !important;
+            width: 0 !important; /* Sidebar is collapsed initially */
         }
     }
 </style>
@@ -81,11 +82,16 @@
 <script>
     function openNav() {
         let sidebar = document.getElementById("sidebar");
-        sidebar.style.width = (window.innerWidth <= 768) ? "100%" : "250px"; // Full width on mobile
+        sidebar.style.width = "250px"; // Open sidebar
     }
 
     function closeNav() {
-        document.getElementById("sidebar").style.width = "0";
+        document.getElementById("sidebar").style.width = "0"; // Collapse sidebar
     }
+
+    // Ensure sidebar remains collapsed when page loads
+    window.onload = function () {
+        document.getElementById("sidebar").style.width = "0";
+    };
 </script>
 
