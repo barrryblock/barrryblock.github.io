@@ -15,7 +15,6 @@
 
 <!-- Sidebar Styling -->
 <style>
-    /* Sidebar Styles */
     .sidebar {
         height: 100%;
         width: 0;
@@ -24,18 +23,19 @@
         left: 0;
         background-color: #1e3c72;
         overflow-x: hidden;
-        transition: 0.5s ease-in-out; /* Smooth sidebar animation */
+        transition: 0.5s ease-in-out;
         padding-top: 60px;
+        z-index: 1100; /* Ensure it is on top of images */
     }
 
     .sidebar a {
-        padding: 12px 25px;
+        padding: 15px 30px;
         text-decoration: none;
         font-size: 1.2rem;
         color: white;
         display: block;
         transition: 0.3s;
-        font-family: 'Poppins', sans-serif; /* Ensures font consistency */
+        font-family: 'Poppins', sans-serif;
     }
 
     .sidebar a:hover {
@@ -60,23 +60,32 @@
         padding: 10px 20px;
         border: none;
         position: fixed;
-        top: 20px; /* Moved down */
+        top: 20px;
         left: 15px;
-        z-index: 1000;
+        z-index: 1200; /* Ensure it's always clickable */
     }
 
     .openbtn:hover {
         color: #2a5298;
+    }
+
+    /* Make Sidebar Full Width on Mobile */
+    @media (max-width: 768px) {
+        .sidebar {
+            width: 100% !important;
+        }
     }
 </style>
 
 <!-- Sidebar Toggle Script -->
 <script>
     function openNav() {
-        document.getElementById("sidebar").style.width = "250px";
+        let sidebar = document.getElementById("sidebar");
+        sidebar.style.width = (window.innerWidth <= 768) ? "100%" : "250px"; // Full width on mobile
     }
 
     function closeNav() {
         document.getElementById("sidebar").style.width = "0";
     }
 </script>
+

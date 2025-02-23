@@ -1,12 +1,14 @@
 
 # About Me
 <p align="center">
-  <img src="/assets/images/profile.JPG" alt="John Prasad" width="200" style="
+  <img src="/assets/images/profile.jpg" alt="John Prasad" width="200" style="
+    display: block;
+    margin: auto;
     border-radius: 50%;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
-    filter: drop-shadow(0 0 15px rgba(0,0,0,0.6));
-    backdrop-filter: blur(5px);
-  ">
+    position: relative;
+    z-index: 100;
+">
 </p>
 
 ## Professional Journey
