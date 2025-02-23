@@ -17,25 +17,25 @@ Armed with a suspect’s hard drive and dash-cam footage, I embarked on my foren
 ### Step 1: Verifying the Evidence
 Before diving in, I had to ensure that the evidence had been handled correctly. Using **FTK Imager**, I verified the forensic images of the suspect’s hard drive and dash-cam. Hash values confirmed the data’s integrity—no tampering, no funny business. 
 
-<img src="assets/images/DF/FTK-hash.png" alt="FTK Imager Hash Verification" width="600">
+<img src="/assets/images/DF/FTK-hash.png" alt="FTK Imager Hash Verification" width="600">
 
 
 ### Step 2: The Emails That Tell a Different Story
 Next, I sifted through Djanko’s emails using **Autopsy**. And there it was—an email exchange between the suspect and the victim. Not only had they communicated, but the discussion revolved around drug drops. 
 
-<img src="assets/images/DF/FullMail-1.png" alt="Email Exchange Between Suspect and Victim" width="600">
+<img src="/assets/images/DF/FullMail-1.png" alt="Email Exchange Between Suspect and Victim" width="600">
 
 This not only proved that the two knew each other but also introduced a new dimension to the case: drug-related activities. 
 
 ### Step 3: Geo-Location Tells the Tale
 The dash-cam data was next. Using **ExifTool** and **GPXSee**, I extracted geolocation data from the footage. Djanko’s claim of being in Leicester all day? Debunked. His vehicle was parked near the crime scene just hours before the assault took place. 
 
-<img src="assets/images/DF/GPX-FullTrip.png" alt="GPXSee visualization of suspect's movements" width="600">
+<img src="/assets/images/DF/GPX-FullTrip.png" alt="GPXSee visualization of suspect's movements" width="600">
 
 ### Step 4: The Smoking Gun (or Car?)
 While analyzing the dash-cam video, I found discrepancies in the metadata. The footage indicated that the car had stopped, but the GPS data showed slight movement. A deeper dive revealed that the car had been idling near the Degree Apprenticeship Centre for an extended period.
 
-<img src="assets/images/DF/ExiftoolSpeedoutput.png" alt="ExifTool output showing speed discrepancies" width="600">
+<img src="/assets/images/DF/ExiftoolSpeedoutput.png" alt="ExifTool output showing speed discrepancies" width="600">
 
 ## The Verdict: Digital Truths vs. Human Lies
 
