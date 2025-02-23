@@ -90,8 +90,8 @@
     }
 
     // Ensure sidebar remains collapsed when page loads
-    window.onload = function () {
+    document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("sidebar").style.width = "0";
-    };
+    });
 </script>
 
