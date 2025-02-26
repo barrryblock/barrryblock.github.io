@@ -55,6 +55,15 @@ USER appuser
 ```
 - Implemented **user namespace remapping** to restrict privileges even if a container is compromised.
 
+- Separated the Docker daemon process into a different **PID namespace**, making it appear as if it runs with root privileges while actually running as a non-root user.
+
+```sh
+# Configure Docker daemon to use namespace remapping
+{
+    "userns-remap": "default"
+}
+```
+
 ### **3. Enforcing Mandatory Access Controls**
 #### 🛡️ **Seccomp Profiles**
 ```json
