@@ -1,14 +1,23 @@
 # From Hard Drives to Handcuffs: My Digital Forensics Case Study
 
+*Published: February 23, 2025*  
+*Author: John Prasad*  
+
+---
+
 ## Introduction
 
 When I enrolled in my master’s program in Cyber Security, I knew digital forensics would be an exciting module. But I never imagined that I’d get the chance to play detective in a simulated criminal case. My task? To analyze digital evidence and determine whether a suspect was guilty of assault. Spoiler alert: Hard drives don’t lie.
+
+---
 
 ## The Case: Rex v Djanko
 
 The case centered around an assault that took place near the Degree Apprenticeship Centre at the University of Warwick. The victim, Stuart Tchaikomsiva, accused the suspect, Paul Djanko, of attacking him. Djanko, however, had other ideas—he claimed he had never met the victim, never spoken to him, and was in Leicester at the time of the crime. 
 
 A bold claim, considering that his digital footprints were practically screaming otherwise.
+
+---
 
 ## The Investigation: Pixels Don’t Forget
 
@@ -37,6 +46,8 @@ While analyzing the dash-cam video, I found discrepancies in the metadata. The f
 
 <img src="/assets/images/DF/ExiftoolSpeedoutput.png" alt="ExifTool output showing speed discrepancies" width="600">
 
+---
+
 ## The Verdict: Digital Truths vs. Human Lies
 
 The digital evidence stacked up against Djanko:
@@ -45,6 +56,8 @@ The digital evidence stacked up against Djanko:
 - **His statements** were inconsistent with the forensic findings.
 
 Though my findings couldn’t prove that he committed the assault, they painted a clear picture: Djanko was lying. And in digital forensics, lies unravel pretty quickly.
+
+---
 
 ## Tools and Technologies Used
 

@@ -1,11 +1,14 @@
 ---
 title: "From Fragile to Fortified: Hardening Containers for Real-World Security"
 date: 2025-02-25
-description: "How I applied advanced container security hardening techniques to secure a database and web server, reducing vulnerabilities from 2100 CVEs to just 220."
-tags: [Cybersecurity, Cloud Security, Docker, Containers]
 ---
 
 # **From Fragile to Fortified: Hardening Containers for Real-World Security**
+
+*Published: February 25, 2025*  
+*Author: John Prasad*  
+
+---
 
 When I started my *Cybersecurity in Virtualisation Systems* module, I thought I knew container security. Spoiler: I didn’t. I had worked with Docker before, understood the basics of least privilege, and had even dabbled in some security best practices. But this module pushed me to take security hardening to a whole new level—transforming two vulnerable containers (a database and an app server) into hardened, resilient systems.
 
@@ -26,28 +29,69 @@ Think of it like fortifying a medieval castle: I needed strong walls, controlled
 I tackled the problem using **defense-in-depth**, applying multiple layers of security across the **build, pre-production, and runtime** phases.
 
 ### **1. Choosing a Secure Base Image**
+```sh
+# Enable Docker Content Trust to ensure only signed images are pulled
+export DOCKER_CONTENT_TRUST=1
+
+# Use a specific tag instead of 'latest' to avoid unexpected changes
+FROM debian:slim
+```
 - Switched from **CentOS 7** to **Debian Slim** for a **smaller attack surface** and **faster security updates**.
 - Result: Reduced vulnerabilities from **2100 CVEs** to **220**, with only **one critical CVE** remaining.
 
 ### **2. Stripping Away Unnecessary Access**
 #### 🔒 **No More SSH**
+```sh
+# Ensure SSH is not installed
+RUN apt-get remove -y openssh-server
+```
 - Eliminated SSH access to prevent brute-force attacks and unauthorized entry.
 
 #### 🔑 **Least Privilege (User Remapping)**
+```sh
+# Create a non-root user for running the container
+RUN useradd -m -s /bin/bash appuser
+USER appuser
+```
 - Implemented **user namespace remapping** to restrict privileges even if a container is compromised.
 
 ### **3. Enforcing Mandatory Access Controls**
 #### 🛡️ **Seccomp Profiles**
+```json
+{
+  "defaultAction": "SCMP_ACT_ALLOW",
+  "syscalls": [
+    {
+      "names": ["rmdir", "chmod", "mount"],
+      "action": "SCMP_ACT_ERRNO"
+    }
+  ]
+}
+```
 - Blocked risky syscalls like `rmdir`, `chmod`, `mount`, preventing attackers from modifying the container environment.
 
 #### 🛡️ **AppArmor Security Policies**
+```sh
+# Load AppArmor profile
+apparmor_parser -r -W /etc/apparmor.d/containers/docker-nginx
+```
 - Applied AppArmor to **limit web server access** to only necessary files and directories.
 
 ### **4. Secrets Management & Network Security**
 #### 🔐 **Securing Secrets with Docker Secrets**
+```sh
+# Store secrets securely in Docker Secrets
+echo "dbpassword" | docker secret create db_password -
+```
 - No plaintext passwords—secrets are encrypted and only accessible to authorized containers.
 
 #### 🌐 **Minimizing Exposed Ports**
+```yaml
+services:
+  web:
+    ports:
+      - "80:80" # Only expose necessary ports
+```
 - Closed unnecessary ports (**8004, 2375, 22**) and kept only **port 80** open for web traffic.
 
 ---
