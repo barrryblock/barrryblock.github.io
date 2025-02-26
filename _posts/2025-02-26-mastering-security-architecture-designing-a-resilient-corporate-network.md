@@ -42,7 +42,7 @@ Dividing the network into VLANs ensured departments only had access to what they
 - **VLAN 30 - Admin:** Access to all configurations, financial records
 - **VLAN 40 - Servers:** Hosting DNS, DHCP, VPN, and internal web services
 
-![Network Topology Diagram](/assets/images/SAND/NetworkTopology.png)
+[Network Topology Diagram](/assets/images/SAND/NetworkTopology.png)
 
 This setup enforced **Zero Trust principles**, ensuring that even within the company, users couldn’t access areas they weren’t authorized to.
 
@@ -56,28 +56,28 @@ Security is **never an afterthought**—here’s what I implemented to protect t
    - Prevented lateral movement between departments  
    - Allowed only essential traffic (e.g., HTTPS but not HTTP) 
 
-![ACLs](/assets/images/SAND/ACLs.png) 
+[ACLs](/assets/images/SAND/ACLs.png) 
 
 2. **Firewalls & Logging**  
    - Implemented ACL-based firewalls for traffic filtering  
    - SYSLOG to monitor network events and detect anomalies  
 
-![Example Firewalls](/assets/images/SAND/Only-Allow-https.png)
-![Logging](/assets/images/SAND/SYSLOG-Web-Config.png)
+[Example Firewalls](/assets/images/SAND/Only-Allow-https.png)
+[Logging](/assets/images/SAND/SYSLOG-Web-Config.png)
 
 3. **Remote Access via VPN**  
    - Configured **IPSec-based VPN** for secure remote work  
    - Used **AAA authentication** for identity verification  
    - Verified encrypted data transmission using `show crypto ipsec sa`  
 
-![VPN Configuration & Verification](/assets/images/SAND/vpn-validation.png)
+[VPN Configuration & Verification](/assets/images/SAND/vpn-validation.png)
 
 4. **Wi-Fi Security (WPA2-Enterprise)**  
    - Used **RADIUS authentication** to prevent unauthorized access  
    - Applied **MAC filtering** and adjusted SSID range to limit exposure  
 
-![Wireless Security Configuration](/assets/images/SAND/WPA2-Enterprise.png)
-![RADIUS Config](/assets/images/SAND/RADIUS-Config.png)
+[Wireless Security Configuration](/assets/images/SAND/WPA2-Enterprise.png)
+[RADIUS Config](/assets/images/SAND/RADIUS-Config.png)
 
 ---
 
