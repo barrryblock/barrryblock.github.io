@@ -133,4 +133,4 @@ As I continue my cybersecurity journey, one thing is clear: **a secure cloud inf
 ### **Want to See the Full Hardening Process?**
 I’ve documented the full security configurations, including **AppArmor profiles, Seccomp rules, and vulnerability scan reports**. Feel free to reach out if you’re interested!
 
-🚀 **Would you hire someone who could do this? Let’s connect.**
+---
