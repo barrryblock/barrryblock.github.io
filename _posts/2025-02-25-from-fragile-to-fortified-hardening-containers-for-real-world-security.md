@@ -101,8 +101,11 @@ services:
 After applying these hardening strategies:
 
 ✅ **Container Image Size Reduction** → Leaner, faster, and more secure.
+
 ✅ **Vulnerability Reduction** → From **2100 CVEs** to **220**, with only **one critical CVE**.
+
 ✅ **Stronger Access Controls** → No root, no SSH, no excessive syscalls, strict AppArmor.
+
 ✅ **Improved Security Posture** → Database and web server now significantly harder to exploit.
 
 ---
