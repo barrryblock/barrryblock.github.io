@@ -106,7 +106,7 @@ To ensure a robust security posture while leveraging cloud capabilities, the fol
 
 ---
 
-## Final Thoughts: How This Shapes My Career
+## Final Thoughts
 
 This project wasn’t just an assignment—it was an opportunity to **apply security best practices in a practical scenario**. It sharpened my skills in **network defense, security architecture, and cloud security**, aligning with my aspirations in Cyber Security.
 

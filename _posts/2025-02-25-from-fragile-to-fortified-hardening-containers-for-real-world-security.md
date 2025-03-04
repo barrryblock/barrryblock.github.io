@@ -24,6 +24,18 @@ Think of it like fortifying a medieval castle: I needed strong walls, controlled
 
 ---
 
+## **Key Takeaways**
+
+1. **Start with a minimal base image**—less is more.
+2. **Remove unnecessary services** (like SSH) to reduce attack vectors.
+3. **Use least privilege principles**—never run containers as root.
+4. **Mandatory Access Controls (Seccomp & AppArmor) are crucial.**
+5. **Manage secrets securely**—use Docker Secrets, not environment variables.
+6. **Minimize exposed ports**—only open what’s necessary.
+7. **Perform regular security scans** (Trivy, Grype, Docker Bench Security).
+
+---
+
 ## **The Approach: Layered Security Hardening**
 
 I tackled the problem using **defense-in-depth**, applying multiple layers of security across the **build, pre-production, and runtime** phases.
@@ -119,19 +131,8 @@ After applying these hardening strategies:
 
 ---
 
-## **Key Takeaways for Cloud Security Engineers & Analysts**
 
-1. **Start with a minimal base image**—less is more.
-2. **Remove unnecessary services** (like SSH) to reduce attack vectors.
-3. **Use least privilege principles**—never run containers as root.
-4. **Mandatory Access Controls (Seccomp & AppArmor) are crucial.**
-5. **Manage secrets securely**—use Docker Secrets, not environment variables.
-6. **Minimize exposed ports**—only open what’s necessary.
-7. **Perform regular security scans** (Trivy, Grype, Docker Bench Security).
-
----
-
-## **Final Thoughts: Why This Matters for Cybersecurity Careers**
+## **Final Thoughts**
 
 This module wasn’t just about theory—it was **real-world security hardening**. The exact skills I applied here—container security, least privilege, access controls, vulnerability management—are the same ones companies expect **Security Analysts** and **Cloud Security Engineers** to master.
 
