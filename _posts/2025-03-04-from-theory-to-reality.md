@@ -3,7 +3,7 @@ title: "From Theory to Reality: Designing a Secure Clinic Infrastructure"
 ---
 
 # From Theory to Reality: Designing a Secure Clinic Infrastructure
-*Published: February 26, 2025*  
+*Published: March 4, 2025*  
 *Author: John Prasad* 
 
 ---
