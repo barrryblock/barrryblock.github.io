@@ -6,6 +6,8 @@ title: "Mastering Security Architecture: Designing a Resilient Corporate Network
 *Published: February 26, 2025*  
 *Author: John Prasad* 
 
+---
+
 ## Introduction
 
 In my journey through my MSc in Cyber Security Engineering, one of the most fascinating modules I encountered was **Security Architecture and Network Defense**. This wasn’t just about understanding network diagrams or configuring VLANs; it was about designing a **resilient, scalable, and secure network** that could withstand evolving cyber threats. 
