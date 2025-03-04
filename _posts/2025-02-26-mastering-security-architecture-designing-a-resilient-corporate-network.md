@@ -62,7 +62,7 @@ Security is **never an afterthought**—here’s what I implemented to protect t
    - Implemented ACL-based firewalls for traffic filtering  
    - SYSLOG to monitor network events and detect anomalies  
 
-[Example Firewalls](/assets/images/SAND/Only-Allow-https.png)
+[Example Firewalls](/assets/images/SAND/Only-Allow-https.png) | 
 [Logging](/assets/images/SAND/SYSLOG-Web-Config.png)
 
 3. **Remote Access via VPN**  
@@ -76,7 +76,7 @@ Security is **never an afterthought**—here’s what I implemented to protect t
    - Used **RADIUS authentication** to prevent unauthorized access  
    - Applied **MAC filtering** and adjusted SSID range to limit exposure  
 
-[Wireless Security Configuration](/assets/images/SAND/WPA2-Enterprise.png)
+[Wireless Security Configuration](/assets/images/SAND/WPA2-Enterprise.png) | 
 [RADIUS Config](/assets/images/SAND/RADIUS-Config.png)
 
 ---
