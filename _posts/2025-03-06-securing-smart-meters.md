@@ -28,6 +28,8 @@ I dissected AMI’s security risks using the **STRIDE** threat modeling framewor
 
 👉 **Lesson learned:** AMI networks need **layered security**—from device hardening to network segmentation.
 
+---
+
 ## Architecting Security: Network Segmentation & Firewalls  
 One major win from my coursework was designing a **secure AMI network architecture**. Key strategies:
 
@@ -40,6 +42,8 @@ One major win from my coursework was designing a **secure AMI network architectu
 
 👉 **Lesson learned:** A flat network is a hacker’s paradise—**segmentation is king.**
 
+---
+
 ## Intrusion Detection & Response: Snort to the Rescue  
 To detect anomalies, I implemented **Intrusion Detection Systems (IDS)** using Snort. One Snort rule I wrote monitored for excessive connection attempts on MQTT (a common AMI protocol):
 
@@ -50,6 +54,8 @@ threshold:type threshold, track by_src, count 10, seconds 60; sid:1000002; rev:1
 ```
 👉 **Lesson learned:** **Detect early, respond faster.** IDS combined with a solid Incident Response Plan (IRP) is a game-changer.
 
+---
+
 ## Cloud Security Considerations  
 Modern AMI systems leverage cloud computing for scalability. That means: 
 - **Identity and Access Management (IAM)** for secure API interactions
@@ -57,6 +63,8 @@ Modern AMI systems leverage cloud computing for scalability. That means:
 - **Data anonymization** to protect customer privacy
 
 👉 **Lesson learned:** Security doesn’t stop at the network—**cloud security is crucial**.
+
+---
 
 ## Final Thoughts  
 This coursework wasn’t just an assignment—it was a deep dive into **Operational Technology (OT) security** and how critical infrastructure needs robust defense mechanisms. The next time you see a smart meter, remember: it’s more than just a digital power counter; it’s a cybersecurity battleground.
