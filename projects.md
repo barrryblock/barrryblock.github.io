@@ -9,7 +9,7 @@
 - Contributed to this project by enhancing biometric security on Android devices through the integration of TEE. This project focused on leveraging TEE to secure biometric data, ensuring that sensitive information like fingerprints and facial recognition data are stored and processed in a highly secure, isolated environment.
 - Developed a Flask server to emulate server-side code, enabling efficient testing and deployment. Additionally, developed an Android app with device attestation performed to check for tampering and verify the authenticity of the app.
 
-### **Cloud & Virtualization Security Hardening** [Read More](https://barrryblock.github.io/2025/02/25/from-fragile-to-fortified-hardening-containers-for-real-world-security.html)
+### [**Cloud & Virtualization Security Hardening**](https://barrryblock.github.io/2025/02/25/from-fragile-to-fortified-hardening-containers-for-real-world-security.html)
 - Evaluated and hardened a prototype containerized cloud environment, reducing attack surfaces and implementing robust security policies to protect against vulnerabilities.
 - Refined Dockerfiles and generated hardened images to enhance the security posture of the containerized application by configuring **AppArmor and SecComp profiles**.
 - Determined and implemented runtime commands for secure container deployment, ensuring proper functionality and adherence to security best practices.
