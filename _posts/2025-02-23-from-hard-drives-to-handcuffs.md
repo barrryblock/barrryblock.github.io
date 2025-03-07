@@ -1,3 +1,8 @@
+---
+title: "From Hard Drives to Handcuffs: My Digital Forensics Case Study"
+date: 2025-02-23
+---
+
 # From Hard Drives to Handcuffs: My Digital Forensics Case Study
 
 *Published: February 23, 2025*  
