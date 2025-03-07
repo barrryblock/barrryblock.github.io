@@ -3,15 +3,15 @@
 *Published: February 21, 2025*  
 *Author: John Prasad*  
 
-> “In the age of digital everything, protecting identities isn’t just a best practice—it’s a matter of survival.”
+> “In the age of digital everything, protecting identities isn’t just a best practice, it’s a matter of survival.”
 
 ---
 
 ## Introduction
 
-Welcome to my very first blog post on cybersecurity! Although it may seem like a dull topic, you’ll find this post packed with critical insights and plenty of eye-opening red flags. Strap in, because it’s time to talk about how our digital infrastructures—those vital services we rely on every day—are under siege by sneaky ransomware gangs, shadowy state-sponsored attackers, and some downright audacious amateurs who’ve watched way too many hacker movies.
+Welcome to my very first blog post on cybersecurity! Although it may seem like a dull topic, you’ll find this post packed with critical insights and plenty of eye-opening red flags. Strap in, because it’s time to talk about how our digital infrastructures, those vital services we rely on every day, are under siege by sneaky ransomware gangs, shadowy state-sponsored attackers, and some downright audacious amateurs who’ve watched way too many hacker movies.
 
-But don’t just take my word for it. I recently prepared a report for the Alan Turing Institute on **Cyber Trends in Digital Public Infrastructure** (yes, that Alan Turing—father of modern computing, codebreaker extraordinaire, and all-around genius). Let’s unpack some of the key points from this research and, most importantly, discover what on earth we can do to protect ourselves. 
+But don’t just take my word for it. I recently prepared a report for the Alan Turing Institute on **Cyber Trends in Digital Public Infrastructure** (yes, that Alan Turing, father of modern computing, codebreaker extraordinaire, and all-around genius). Let’s unpack some of the key points from this research and, most importantly, discover what on earth we can do to protect ourselves. 
 
 ---
 
@@ -46,10 +46,10 @@ The Storm-0558 hacking group exploited Microsoft’s authentication tokens, infi
 ### 5. Data Brokers & Identity: The Unseen Risk
 You know all those background check services offering any detail on someone for the cost of a latte? Sometimes they get hacked, and _your_ info is part of the loot. Then we have national identity breaches where entire populations’ biometric data, addresses, and phone numbers are posted in the dark corners of the internet[^11]. 
 
-A breach at National Public Data exposed sensitive information (possibly including Social Security numbers) of millions of people across multiple countries [^9]. Meanwhile, a massive breach in El Salvador’s national digital infrastructure compromised the personal data of 5.1 million citizens—including biometric facial photos [^10]—highlighting how national identity systems can become gold mines for cybercriminals.
+A breach at National Public Data exposed sensitive information (possibly including Social Security numbers) of millions of people across multiple countries [^9]. Meanwhile, a massive breach in El Salvador’s national digital infrastructure compromised the personal data of 5.1 million citizens—including biometric facial photos [^10], highlighting how national identity systems can become gold mines for cybercriminals.
 
 
-**Pro Tip:** Implement robust encryption and multi-factor authentication. Demand that organizations handling your data do the same—or at least send them a strongly worded email.
+**Pro Tip:** Implement robust encryption and multi-factor authentication. Demand that organizations handling your data do the same, or at least send them a strongly worded email.
 
 ---
 
@@ -62,7 +62,7 @@ A breach at National Public Data exposed sensitive information (possibly includi
    Expect more governments to wake up and draft heavy-handed legislation. Some might help, but watch out for any half-baked rules that create as many problems as they solve.
 
 3. **Machine Identities**  
-   With automation rising, machine-to-machine communication is exploding—but so are the security risks. Many organizations have no idea how many “machine IDs” they even have.  
+   With automation rising, machine-to-machine communication is exploding, but so are the security risks. Many organizations have no idea how many “machine IDs” they even have.  
   
 4. **Resurgence of Old-School Techniques**  
    While new tech is flashy, sometimes simple phishing, password spraying, or phone-based scams remain the easiest way in. As we harden the perimeter, criminals might slip in through the back door labelled “human error.”
@@ -99,7 +99,7 @@ So, how do we protect ourselves from this relentless barrage of threats? Here’
 
 Our digital identity infrastructure is as fragile as it is vital—just ask the folks in El Salvador, Italy[^12], or any of the many places that suffered massive data breaches affecting millions. The key to staving off chaos is sustained vigilance, a willingness to invest in robust security frameworks, and a healthy dash of paranoia (okay, maybe just a pinch).
 
-The future of digital infrastructure highlights the critical need for cross-sector collaboration, advanced identity verification, and proactive monitoring. In the meantime, keep your antivirus up to date, embrace multi-factor authentication like your life depends on it (it might!), and remember: Cybersecurity might be serious business, but we can still keep it lively, engaging, and—dare I say—fun to talk about.
+The future of digital infrastructure highlights the critical need for cross-sector collaboration, advanced identity verification, and proactive monitoring. In the meantime, keep your antivirus up to date, embrace multi-factor authentication like your life depends on it (it might!), and remember: Cybersecurity might be serious business, but we can still keep it lively, engaging, and dare I say, fun to talk about.
 
 Thanks for joining me on this whirlwind look at all things cyber. Stay sharp, update your software, and come back soon for more cybersecurity insights.
 

@@ -13,7 +13,7 @@ When I enrolled in my master’s program in Cyber Security, I knew digital foren
 
 ## The Case: Rex v Djanko
 
-The case centered around an assault that took place near the Degree Apprenticeship Centre at the University of Warwick. The victim, Stuart Tchaikomsiva, accused the suspect, Paul Djanko, of attacking him. Djanko, however, had other ideas—he claimed he had never met the victim, never spoken to him, and was in Leicester at the time of the crime. 
+The case centered around an assault that took place near the Degree Apprenticeship Centre at the University of Warwick. The victim, Stuart Tchaikomsiva, accused the suspect, Paul Djanko, of attacking him. Djanko, however, had other ideas: he claimed he had never met the victim, never spoken to him, and was in Leicester at the time of the crime. 
 
 A bold claim, considering that his digital footprints were practically screaming otherwise.
 

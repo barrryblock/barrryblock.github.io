@@ -12,10 +12,10 @@ tags: [AMI, Smart Meters, OT Security, Cyber-Physical Systems, Cloud Security]
 
 ---
 
-When I embarked on my MSc in Cyber Security Engineering, I didn’t expect to find myself knee-deep in smart meters, Advanced Metering Infrastructure (AMI), and operational technology (OT) security. But here we are—one coursework and countless security assessments later, I developed a framework to secure AMI networks and smart meters from cyber threats. Here’s how it went down.
+When I embarked on my MSc in Cyber Security Engineering, I didn’t expect to find myself knee-deep in smart meters, Advanced Metering Infrastructure (AMI), and operational technology (OT) security. But here we are, one coursework and countless security assessments later, I developed a framework to secure AMI networks and smart meters from cyber threats. Here’s how it went down.
 
 ## AMI and Smart Meters: A Double-Edged Sword  
-Smart meters and AMI networks are the backbone of modern utility infrastructure, offering real-time consumption monitoring, remote diagnostics, and automated billing. But like all great tech, they come with security risks—spoofing, data manipulation, and denial-of-service attacks, to name a few. 
+Smart meters and AMI networks are the backbone of modern utility infrastructure, offering real-time consumption monitoring, remote diagnostics, and automated billing. But like all great tech, they come with security risks: spoofing, data manipulation, and denial-of-service attacks, to name a few. 
 
 ### The Security Challenges  
 I dissected AMI’s security risks using the **STRIDE** threat modeling framework:
@@ -40,7 +40,7 @@ One major win from my coursework was designing a **secure AMI network architectu
 
 [AMI Network Security Architecture](/assets/images/CPS/AMI%20Architecture.png)  
 
-👉 **Lesson learned:** A flat network is a hacker’s paradise—**segmentation is king.**
+👉 **Lesson learned:** A flat network is a hacker’s paradise: **segmentation is king.**
 
 ---
 

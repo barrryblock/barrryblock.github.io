@@ -18,7 +18,7 @@ This wasn’t just an academic exercise; it was a deep dive into real-world secu
 
 ## **The Problem: Containers Are Convenient, but Also Risky**
 
-Containers are fantastic for portability and scalability. But out-of-the-box, they come with security pitfalls—misconfigurations, excessive privileges, unpatched vulnerabilities, and secrets stored in plain text. My assignment was to take two standard containers—a **MariaDB database** and an **Nginx-based web server**—and apply industry-grade hardening techniques.
+Containers are fantastic for portability and scalability. But out-of-the-box, they come with security pitfalls: misconfigurations, excessive privileges, unpatched vulnerabilities, and secrets stored in plain text. My assignment was to take two standard containers—a **MariaDB database** and an **Nginx-based web server**, and apply industry-grade hardening techniques.
 
 Think of it like fortifying a medieval castle: I needed strong walls, controlled entry points, and safeguards against inside and outside threats.
 
@@ -134,7 +134,7 @@ After applying these hardening strategies:
 
 ## **Final Thoughts**
 
-This module wasn’t just about theory—it was **real-world security hardening**. The exact skills I applied here—container security, least privilege, access controls, vulnerability management—are the same ones companies expect **Security Analysts** and **Cloud Security Engineers** to master.
+This module wasn’t just about theory, it was **real-world security hardening**. The exact skills I applied here: container security, least privilege, access controls, vulnerability management, are the same ones companies expect **Security Analysts** and **Cloud Security Engineers** to master.
 
 As I continue my cybersecurity journey, one thing is clear: **a secure cloud infrastructure starts with secure containers.** And now, I know how to build them.
 

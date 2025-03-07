@@ -11,25 +11,27 @@
 ">
 </p>
 
-## Professional Journey
-During my tenure at CGI, I had the opportunity to engage with a diverse range of projects, from automating data migrations to supporting unified endpoint management. One initiative involved using PowerShell scripts to gather software usage information across thousands of endpoints—an experience that underscored both the immense power of enterprise-wide oversight and the corresponding responsibility to safeguard user privacy. In my very first year at CGI, I spun up an Azure VM with a public IP, only to discover it under immediate siege by a relentless dictionary attack. This unexpected incident not only introduced me to the urgency of cybersecurity challenges but also served as the catalyst for my ongoing fascination with threat detection and mitigation.  
-
-Alongside my professional growth, I pursued my academic interests with the same level of curiosity and drive. Originally from Nepal, I completed my undergraduate degree at one of India’s top engineering institutes, where I delved into core Computing concepts. My projects ranged from developing a CNN-based waste classification system [^1] to experimenting with reverse image search algorithms using LSTM and RNN [^2]. Building on these foundations, I decided to elevate my understanding of security by enrolling in a Master’s program at the University of Warwick. This has allowed me to explore a variety of specialized topics, including _Digital Forensics_, _Cyber Security for Virtualisation Systems_, _Enterprise Cyber Security_ and _Crypto-systems and Data Protection_, each further sharpening my perspective on safeguarding data in increasingly complex IT ecosystems.
-
-My thesis focused on “Privacy Enhancing Technologies in Zero Trust Networks.” The aim was to balance strong security protocols with privacy-centric frameworks, ensuring minimal intrusion into individual data while maintaining robust defense systems by the usage of Trusted Execution Environment(TEE) [^3]. Currently, I serve as a Research Assistant at Warwick, where I am collaborating with Warwick and the Alan Turing Institute on the implementation of OpenCTI, an advanced cyber threat intelligence platform. This initiative streamlines how organizations gather, correlate, and act on threat information, enabling proactive mitigation strategies in an ever-evolving digital landscape. Whether through research, development, or practical implementation, my goal remains consistent: to contribute meaningfully to cybersecurity advancements that protect both enterprises and end users alike.
-
-
 ## Skills
 - **Languages & Databases**: .NET (C#), Python, PowerShell, SQL Server, MongoDB, Bash Scripting, Kotlin
-- **Security Tools**: Azure Sentinel, OpenCTI, OWASP, Metasploit, MISP, Snort(Firewall)
+- **Security Tools**: Azure Sentinel, OWASP, Metasploit, MISP, Snort(Firewall), SecurityOnion(SIEM)
 - **Cloud & DevOps**: Docker, Azure, CI/CD, Ansible, Apache, IIS
-- **Threat Intelligence & Digital Forensics**: Autopsy, FTK Imager, MITRE ATT&CK, Elastic Stack
+- **Threat Intelligence & Digital Forensics**: Autopsy, FTK Imager, MITRE ATT&CK, Elastic Stack, OpenCTI, MISP
 
 ## Certifications & Achievements
 - **TryHackMe Jr. Penetration Tester**
-- **Tenable CTF Top 50 Finisher**
 - **1st Place in BU-Wide Hackathons (CGI 2020, 2021)**
-- **Practical Malware Analysis & Triage Certification**
+- **Practical Malware Analysis & Triage Certification from TCM**
+
+## Professional Journey
+My journey at CGI involved projects that stretched from automating intricate data migrations to managing unified endpoint systems. One particularly memorable project involved crafting PowerShell scripts to gather software usage data across thousands of endpoints; a task that vividly demonstrated the epic scope of enterprise oversight and highlighted the critical responsibility we hold in protecting user privacy.
+
+My initiation into cybersecurity was humorous: in my first year at CGI, I eagerly spun up an Azure VM with a public IP, only to find it immediately bombarded by an army of dictionary attacks. While slightly alarming at the moment, this experience wasn't just a wake-up call; it sparked my lasting fascination with threat detection and the art (and science) of cyber defence.
+
+Alongside this hands-on experience, my academic journey unfolded with equal enthusiasm. Originally from Nepal, I pursued my undergraduate studies at one of India’s premier engineering institutes, diving deep into foundational computing concepts. My projects included training CNNs to classify waste, essentially teaching machines how to recycle better [^1], and experimenting with LSTM and RNN models to power advanced reverse image searches [^2]. Determined to further specialize, I took my passion for security to the next level by enrolling in a Master’s program at the University of Warwick.
+
+At Warwick, my studies ventured into the intriguing worlds of Digital Forensics, Cyber Security for Virtualisation Systems, Enterprise Cyber Security, and Cryptosystems. Each topic deepened my commitment to protecting data within increasingly intricate IT landscapes. My thesis, "Privacy Enhancing Technologies in Zero Trust Networks," tackled the delicate balance of robust security protocols and privacy preservation, employing Trusted Execution Environments (TEE) to achieve the best of both worlds [^3].
+
+Currently, as a Research Assistant at Warwick, I’m collaborating with both the University and the Alan Turing Institute on implementing OpenCTI, a cutting-edge cyber threat intelligence platform. This initiative dramatically improves how organizations collect, correlate, and respond to threat intelligence, empowering proactive security measures in a digital world that's never short on surprises. Whether through research, innovative development, or practical applications, my mission remains unwavering: to make impactful contributions to cybersecurity that effectively shield enterprises, and the people behind them, from evolving digital threats.
 
 ---
 

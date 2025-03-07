@@ -10,9 +10,9 @@ title: "From Theory to Reality: Designing a Secure Clinic Infrastructure"
 
 ## Introduction
 
-One of the best things about my MSc in Cyber Security Engineering was seeing theory come to life. Every module threw challenges at me, and one of the most applications of theoretical knowledge came from *Cryptosystems and Data Protection*. In this module, I tackled a real-world security issue—designing a cryptographic solution for a healthcare clinic migrating to the cloud.
+One of the best things about my MSc in Cyber Security Engineering was seeing theory come to life. Every module threw challenges at me, and one of the most applications of theoretical knowledge came from *Cryptosystems and Data Protection*. In this module, I tackled a real-world security issue: designing a cryptographic solution for a healthcare clinic migrating to the cloud.
 
-With patient data, financial records, and prescription systems at stake, security wasn’t just an academic exercise—it was critical. So, I put my knowledge to the test and built a cryptographic framework for St. John’s Clinic. Here’s how I did it and how this experience shaped my ability to solve real security challenges.
+With patient data, financial records, and prescription systems at stake, security wasn’t just an academic exercise, it was critical. So, I put my knowledge to the test and built a cryptographic framework for St. John’s Clinic. Here’s how I did it and how this experience shaped my ability to solve real security challenges.
 
 ---
 
@@ -35,7 +35,7 @@ With cloud adoption accelerating, the clinic needed airtight security. The risks
 
 ### **1. Single Sign-On (SSO): Centralized Authentication with OpenID Connect**
 
-One of the first pain points I identified was **password fatigue**—staff and patients managing multiple credentials across different systems. Weak or reused passwords were a major attack vector.
+One of the first pain points I identified was **password fatigue**, staff and patients managing multiple credentials across different systems. Weak or reused passwords were a major attack vector.
 
 My proposed solution? **An OpenID Connect (OIDC)-based Single Sign-On (SSO) system, integrated with an Identity Provider (IdP) and enforcing MFA.**
 
