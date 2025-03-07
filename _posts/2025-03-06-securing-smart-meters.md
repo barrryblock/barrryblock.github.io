@@ -26,7 +26,7 @@ I dissected AMI’s security risks using the **STRIDE** threat modeling framewor
 - **Denial of Service**: Flooding attacks disrupting network operations
 - **Elevation of Privilege**: Weak authentication enabling unauthorized access
 
-👉 **Lesson learned:** AMI networks need **layered security**—from device hardening to network segmentation.
+👉 **Lesson learned:** AMI networks need **layered security**, from device hardening to network segmentation.
 
 ---
 
@@ -62,10 +62,10 @@ Modern AMI systems leverage cloud computing for scalability. That means:
 - **SIEM integration** for centralized monitoring
 - **Data anonymization** to protect customer privacy
 
-👉 **Lesson learned:** Security doesn’t stop at the network—**cloud security is crucial**.
+👉 **Lesson learned:** Security doesn’t stop at the network, **cloud security is crucial**.
 
 ---
 
 ## Final Thoughts  
-This coursework wasn’t just an assignment—it was a deep dive into **Operational Technology (OT) security** and how critical infrastructure needs robust defense mechanisms. The next time you see a smart meter, remember: it’s more than just a digital power counter; it’s a cybersecurity battleground.
+This coursework wasn’t just an assignment, it was a deep dive into **Operational Technology (OT) security** and how critical infrastructure needs robust defense mechanisms. The next time you see a smart meter, remember: it’s more than just a digital power counter; it’s a cybersecurity battleground.
 

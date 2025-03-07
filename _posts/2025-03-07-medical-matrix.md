@@ -9,11 +9,13 @@ date: 2025-03-07
 
 ---
 
-Cybersecurity in Operational Technology (OT) is often overlooked—until it's too late. When it comes to **hospitals**, the stakes couldn't be higher. Imagine a ransomware attack locking critical medical devices or a hacker altering patient data mid-surgery, scenarios that might sound like a thriller but are disturbingly realistic in today's interconnected healthcare environment.
+Cybersecurity in Operational Technology (OT) is often overlooked, until it's too late. When it comes to **hospitals**, the stakes couldn't be higher. Imagine a ransomware attack locking critical medical devices or a hacker altering patient data mid-surgery, scenarios that might sound like a thriller but are disturbingly realistic in today's interconnected healthcare environment.
 
-During my MSc in Cyber Security Engineering, the module *Information Risk, Management, and Governance* was particularly enlightening, compelling me to apply theoretical risk frameworks to the practical security challenges hospitals face today. It wasn’t just an academic exercise—it was real-world OT security in action.
+During my MSc in Cyber Security Engineering, the module *Information Risk, Management, and Governance* was particularly enlightening, compelling me to apply theoretical risk frameworks to the practical security challenges hospitals face today. It wasn’t just an academic exercise, it was real-world OT security in action.
 
-Here’s how I tackled it, and what it taught me.
+Here’s how I tackled it, and what it taught me:
+
+---
 
 ## The Cyber Pulse of a Modern Hospital
 
@@ -24,6 +26,7 @@ Hospitals today are **hyper-connected** ecosystems, buzzing with IoMT devices—
   - Weak authentication mechanisms leaving devices susceptible to unauthorized access.
   - Compliance challenges risking both patient safety and regulatory adherence.
 
+---
 
 ## Risk Analysis: Diagnosing the Cyber Threats
 
@@ -41,7 +44,7 @@ During my module in Information Risk, Management, and Governance, I conducted a 
 - **Alaris Syringe Pumps and GE Imaging Equipment**: Highly critical vulnerabilities involving improper authentication and credential management.
   - **Mitigation**: Immediate updates, strong authentication, secure configuration.
 
-
+---
 
 ## Strategic Risk Mitigation: Beyond Simple Patching
 
@@ -63,11 +66,11 @@ The audit wasn't just about identifying vulnerabilities but establishing a robus
 - Vendor risk assessments to ensure stringent cybersecurity compliance.
 - Intrusion Detection Systems (IDS) and clearly defined Incident Response Plans to swiftly tackle any potential threats.
 
+---
+
 ## Bridging the OT-IT Gap
 
 A pivotal takeaway from this module was recognizing the unique cybersecurity landscape of Operational Technology, particularly in healthcare. It’s no secret that OT security often trails behind IT by about a decade, addressing this gap isn't just good practice; it's essential. The hospital project underscored the necessity of prioritizing operational continuity and patient safety.
-
-Through this module, I didn't just expand my theoretical knowledge—I applied practical cybersecurity skills that directly contribute to safer, more resilient healthcare environments.
 
 ---
 
