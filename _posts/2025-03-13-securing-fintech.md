@@ -50,6 +50,32 @@ So, how did I tackle this challenge? Here's a glimpse into my process:
 
 Using **Threat Risk Templates**, I identified key risks:
 
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  th {
+    background-color: var(--table-header-bg, #222);
+    color: var(--table-header-text, white);
+  }
+  tr:nth-child(even) {
+    background-color: var(--table-row-alt-bg, #f2f2f2);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --table-header-bg: #444;
+      --table-header-text: #fff;
+      --table-row-alt-bg: #333;
+    }
+  }
+</style>
+
 <table>
   <tr>
     <th>Threat</th>
