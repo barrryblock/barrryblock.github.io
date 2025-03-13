@@ -50,16 +50,33 @@ So, how did I tackle this challenge? Here's a glimpse into my process:
 
 Using **Threat Risk Templates**, I identified key risks:
 
-| **Threat**               | **Impact**                | **Mitigation Strategy**                                      |
-|--------------------------|--------------------------|-------------------------------------------------------------|
-| **API Exploits**         | Data breaches, financial fraud | Implement API gateways, rate limiting, and OAuth 2.0 authentication |
-|--------------------------|--------------------------|-------------------------------------------------------------|
-| **Cloud Misconfigurations** | Unauthorized access      | Enforce least privilege, conduct regular security audits   |
-|--------------------------|--------------------------|-------------------------------------------------------------|
-| **Insider Threats**      | Data leaks, fraud        | Implement SIEM monitoring and strict access controls       |
-|--------------------------|--------------------------|-------------------------------------------------------------|
-| **Payment Fraud**        | Financial losses         | Deploy AI-based fraud detection algorithms                 |
-
+<table>
+  <tr>
+    <th>Threat</th>
+    <th>Impact</th>
+    <th>Mitigation Strategy</th>
+  </tr>
+  <tr>
+    <td><strong>API Exploits</strong></td>
+    <td>Data breaches, financial fraud</td>
+    <td>Implement API gateways, rate limiting, and OAuth 2.0 authentication</td>
+  </tr>
+  <tr>
+    <td><strong>Cloud Misconfigurations</strong></td>
+    <td>Unauthorized access</td>
+    <td>Enforce least privilege, conduct regular security audits</td>
+  </tr>
+  <tr>
+    <td><strong>Insider Threats</strong></td>
+    <td>Data leaks, fraud</td>
+    <td>Implement SIEM monitoring and strict access controls</td>
+  </tr>
+  <tr>
+    <td><strong>Payment Fraud</strong></td>
+    <td>Financial losses</td>
+    <td>Deploy AI-based fraud detection algorithms</td>
+  </tr>
+</table>
 
 
 
