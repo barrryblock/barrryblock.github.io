@@ -51,7 +51,7 @@ So, how did I tackle this challenge? Here's a glimpse into my process:
 Using **Threat Risk Templates**, I identified key risks:
 
 | **Threat**               | **Impact**                | **Mitigation Strategy**                                      |
-|--------------------------|--------------------------|-------------------------------------------------------------|
+|--------------------------|---------------------------------------------------------------------------------------|
 
 | **API Exploits**         | Data breaches, financial fraud | Implement API gateways, rate limiting, and OAuth 2.0 authentication |
 
