@@ -61,17 +61,30 @@ Using **Threat Risk Templates**, I identified key risks:
     text-align: left;
   }
   th {
-    background-color: var(--table-header-bg, #222);
-    color: var(--table-header-text, white);
+    background-color: #333; /* Dark background for headers */
+    color: white; /* White text for headers */
   }
   tr:nth-child(even) {
-    background-color: var(--table-row-alt-bg, #f2f2f2);
+    background-color: #f9f9f9; /* Light gray for even rows in light mode */
   }
+  tr:nth-child(odd) {
+    background-color: white; /* White for odd rows in light mode */
+  }
+
+  /* Dark Mode Fix */
   @media (prefers-color-scheme: dark) {
-    :root {
-      --table-header-bg: #444;
-      --table-header-text: #fff;
-      --table-row-alt-bg: #333;
+    th {
+      background-color: #444;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #333; /* Dark gray for even rows in dark mode */
+    }
+    tr:nth-child(odd) {
+      background-color: #222; /* Slightly darker for odd rows */
+    }
+    td {
+      color: white; /* Ensure text is readable in dark mode */
     }
   }
 </style>
