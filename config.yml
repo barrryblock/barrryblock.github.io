@@ -40,3 +40,5 @@ navigation:
     url: /contact/
   - title: Projects
     url: /projects/
+  - title: Education
+    url: /education/
