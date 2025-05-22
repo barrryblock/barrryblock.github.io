@@ -1,4 +1,4 @@
-
+# Projects
 ### **Cyber Threat Intelligence Observatory**
 - Deployed **OpenCTI** on the cloud using **Docker** and **OpenStack**, enabling Cyber Threat Intelligence for **Digital Public Infrastructure(DPI)**.
 - Integrated RSS feeds from key sources to enrich threat intelligence with real-time insights on DPI-related cyber risks.

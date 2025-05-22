@@ -28,7 +28,7 @@ defaults:
       path: "_portfolio"
       type: "portfolio"
     values:
-      layout: "portfolio"
+      layout: "custom"
 
 include:
   - pages
