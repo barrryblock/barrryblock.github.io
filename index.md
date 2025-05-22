@@ -13,6 +13,8 @@
     <p>In my blog, I will share insights on <strong>Cyber Threat Intelligence, Security Automation, Risk Mitigation</strong>, and <strong>emerging cybersecurity trends</strong>. Additionally, I will document my journey through my <strong>MSc in Cyber Security Engineering</strong>, discussing the key modules I studied, my master's thesis, and the valuable lessons I learned throughout the program. Stay tuned for in-depth articles and technical explorations!</p>
     <p><a href="./blog">Read My Blog</a></p>
   </div>
+
+  <meta name="google-site-verification" content="kcaIaT5CtEV0dPulzOVP2N3MqheAh1NA_nMXDTtUE14" />
 </div>
 
 <style>
