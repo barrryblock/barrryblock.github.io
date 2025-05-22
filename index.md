@@ -14,7 +14,6 @@
     <p><a href="./blog">Read My Blog</a></p>
   </div>
 
-  <meta name="google-site-verification" content="kcaIaT5CtEV0dPulzOVP2N3MqheAh1NA_nMXDTtUE14" />
 </div>
 
 <style>
