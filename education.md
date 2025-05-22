@@ -1,4 +1,3 @@
-# Education
 
 Here’s a snapshot of my academic journey into the world of cyber security and engineering.
 
