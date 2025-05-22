@@ -23,7 +23,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "John Prsad"
+      author: "John Prasad"
   - scope:
       path: "_portfolio"
       type: "portfolio"

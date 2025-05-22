@@ -4,10 +4,7 @@ date: 2025-03-07
 categories: [MSc]
 ---
 
-# Hacking the Risk Matrix: Unveiling Cybersecurity Threats
-*Published: March 07, 2025*  
-*Author: John Prasad* 
-
+---
 
 When you hear "cybersecurity," you might picture dark rooms lit by screens, rapid typing, and perhaps some cryptic commands. Well, you're not far off! A recent project, part of my MSc in Cyber Security Engineering, brought together rigorous academic theory and real-world cybersecurity practices through a comprehensive security audit and risk assessment for a company's highly sensitive network. This assignment complemented my earlier assignment, 'Hacking the (Medical) Matrix: Risk Managing IoMT in Hospitals,' both rooted in the same module: Information Risk, Management, and Governance (IRMG). While my solo assignment focused on medical devices within healthcare, this assignment broadened the perspective, applying similar risk assessment principles to corporate cybersecurity environments in a collaborative setting.
 

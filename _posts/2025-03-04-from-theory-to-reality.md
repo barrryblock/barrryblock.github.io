@@ -3,10 +3,6 @@ title: "From Theory to Reality: Designing a Secure Clinic Infrastructure"
 categories: [MSc]
 ---
 
-# From Theory to Reality: Designing a Secure Clinic Infrastructure
-*Published: March 4, 2025*  
-*Author: John Prasad* 
-
 ---
 
 ## Introduction

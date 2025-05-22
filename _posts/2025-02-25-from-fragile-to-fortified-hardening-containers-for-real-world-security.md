@@ -4,11 +4,6 @@ date: 2025-02-25
 categories: [MSc]
 ---
 
-# **From Fragile to Fortified: Hardening Containers for Real-World Security**
-
-*Published: February 25, 2025*  
-*Author: John Prasad*  
-
 ---
 
 When I started my *Cybersecurity in Virtualisation Systems* module, I thought I knew container security. Spoiler: I didn’t. I had worked with Docker before, understood the basics of least privilege, and had even dabbled in some security best practices. But this module pushed me to take security hardening to a whole new level—transforming two vulnerable containers (a database and an app server) into hardened, resilient systems.

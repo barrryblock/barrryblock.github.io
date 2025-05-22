@@ -4,10 +4,6 @@ date: 2025-03-07
 categories: [MSc]
 ---
 
-# Hacking the (Medical) Matrix: Risk Managing IoMT in Hospitals
-*Published: March 07, 2025*  
-*Author: John Prasad* 
-
 ---
 
 Cybersecurity in Operational Technology (OT) is often overlooked, until it's too late. When it comes to **hospitals**, the stakes couldn't be higher. Imagine a ransomware attack locking critical medical devices or a hacker altering patient data mid-surgery, scenarios that might sound like a thriller but are disturbingly realistic in today's interconnected healthcare environment.

@@ -6,9 +6,6 @@ categories: [MSc]
 tags: [AMI, Smart Meters, OT Security, Cyber-Physical Systems, Cloud Security]
 ---
 
-# Securing Smart Meters: Lessons from Cyber-Physical Systems
-*Published: March 06, 2025*  
-*Author: John Prasad*  
 
 ---
 

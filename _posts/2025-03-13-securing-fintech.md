@@ -4,10 +4,6 @@ date: "2025-03-13"
 categories: [MSc]
 ---
 
-# Blueprint for a Secure FinTech: Case Study in Cybersecurity
-*Published: March 13, 2025*  
-*Author: John Prasad*
-
 ---
 
 It's bittersweet, but this is my final blog post reflecting on my MSc journey. This time, I'm diving into my *Enterprise Cyber Security* module, where I got to play cyber superhero for a fictitious FinTech company. Forget capes; my toolkit included **risk analysis, threat modeling, and a whole lot of architectural thinking**.
