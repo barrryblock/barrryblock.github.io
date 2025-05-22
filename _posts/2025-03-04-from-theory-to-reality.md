@@ -1,5 +1,6 @@
 ---
 title: "From Theory to Reality: Designing a Secure Clinic Infrastructure"
+categories: [MSc]
 ---
 
 # From Theory to Reality: Designing a Secure Clinic Infrastructure

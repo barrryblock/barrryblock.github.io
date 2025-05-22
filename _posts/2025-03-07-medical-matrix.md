@@ -1,6 +1,7 @@
 ---
 title: "Hacking the (Medical) Matrix: Risk Managing IoMT in Hospitals"
 date: 2025-03-07
+categories: [MSc]
 ---
 
 # Hacking the (Medical) Matrix: Risk Managing IoMT in Hospitals

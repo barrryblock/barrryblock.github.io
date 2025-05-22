@@ -1,6 +1,7 @@
 ---
 title: "Hacking the Risk Matrix: Unveiling Cybersecurity Threats"
 date: 2025-03-07
+categories: [MSc]
 ---
 
 # Hacking the Risk Matrix: Unveiling Cybersecurity Threats

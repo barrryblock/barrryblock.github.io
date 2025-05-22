@@ -2,7 +2,7 @@
 title: "Securing Smart Meters: Lessons from Cyber-Physical Systems"
 date: 2025-03-06
 description: "How I leveraged Cyber-Physical Systems knowledge to secure AMI networks and smart meters."
-categories: [Cyber Security, OT Security, Cloud Security]
+categories: [MSc]
 tags: [AMI, Smart Meters, OT Security, Cyber-Physical Systems, Cloud Security]
 ---
 
