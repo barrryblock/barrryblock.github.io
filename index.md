@@ -1,4 +1,7 @@
-# Dev → Sec
+---
+title: Dev → Sec
+layout: default
+---
 
 <div class="content-container">
   <div class="content-box">

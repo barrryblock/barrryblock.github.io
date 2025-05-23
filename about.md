@@ -1,5 +1,8 @@
+---
+title: About Me
+layout: default
+---
 
-# About Me
 <p align="center">
   <img src="/assets/images/profile.JPG" alt="John Prasad" width="200" style="
     display: block;
