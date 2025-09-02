@@ -1,10 +1,8 @@
 ---
 title: "Mastering Security Architecture: Designing a Resilient Corporate Network"
+categories: [MSc]
 ---
 
-# Mastering Security Architecture: Designing a Resilient Corporate Network
-*Published: February 26, 2025*  
-*Author: John Prasad* 
 
 ---
 

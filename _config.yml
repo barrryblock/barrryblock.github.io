@@ -2,9 +2,13 @@ name: My Portfolio and Blog
 markdown: kramdown
 theme: minima
 plugins:
+  - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-sitemap
+  
+
+
+robots: all
 
 permalink: /:categories/:title/
 
@@ -19,12 +23,12 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "John Prsad"
+      author: "John Prasad"
   - scope:
       path: "_portfolio"
       type: "portfolio"
     values:
-      layout: "portfolio"
+      layout: "custom"
 
 include:
   - pages

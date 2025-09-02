@@ -75,3 +75,25 @@ footer a {
 .dark-mode footer a {
     color: white;
 }
+
+/* Shared image styling */
+.theme-img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    transition: opacity 0.3s ease;
+}
+
+/* Show only light image by default */
+.dark-img {
+    display: none;
+}
+
+/* When dark mode is active */
+body.dark-mode .light-img {
+    display: none;
+}
+
+body.dark-mode .dark-img {
+    display: block;
+}

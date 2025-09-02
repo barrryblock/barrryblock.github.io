@@ -1,12 +1,8 @@
 ---
 title: "From Fragile to Fortified: Hardening Containers for Real-World Security"
 date: 2025-02-25
+categories: [MSc]
 ---
-
-# **From Fragile to Fortified: Hardening Containers for Real-World Security**
-
-*Published: February 25, 2025*  
-*Author: John Prasad*  
 
 ---
 
@@ -25,6 +21,11 @@ Think of it like fortifying a medieval castle: I needed strong walls, controlled
 ---
 
 ## **Key Takeaways**
+
+
+<img src="/assets/images/CSVS/steps-light.svg" class="theme-img light-img" alt="Container Security">
+<img src="/assets/images/CSVS/steps-dark.svg" class="theme-img dark-img" alt="Container Security">
+
 
 1. **Start with a minimal base image**—less is more.
 2. **Remove unnecessary services** (like SSH) to reduce attack vectors.

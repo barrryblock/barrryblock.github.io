@@ -1,11 +1,8 @@
 ---
 title: "Hacking the (Medical) Matrix: Risk Managing IoMT in Hospitals"
 date: 2025-03-07
+categories: [MSc]
 ---
-
-# Hacking the (Medical) Matrix: Risk Managing IoMT in Hospitals
-*Published: March 07, 2025*  
-*Author: John Prasad* 
 
 ---
 

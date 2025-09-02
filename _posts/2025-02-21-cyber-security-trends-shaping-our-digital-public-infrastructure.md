@@ -1,7 +1,10 @@
-# Cyber Security Trends Shaping Our Digital Public Infrastructure
+---
+title: "Cyber Security Trends Shaping Our Digital Public Infrastructure"
+date: 2025-02-21
+categories: [Other]
+---
 
-*Published: February 21, 2025*  
-*Author: John Prasad*  
+---
 
 > “In the age of digital everything, protecting identities isn’t just a best practice, it’s a matter of survival.”
 

@@ -1,12 +1,8 @@
 ---
 title: "Blueprint for a Secure FinTech: Case Study in Cybersecurity"
 date: "2025-03-13"
-
+categories: [MSc]
 ---
-
-# Blueprint for a Secure FinTech: Case Study in Cybersecurity
-*Published: March 13, 2025*  
-*Author: John Prasad*
 
 ---
 

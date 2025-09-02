@@ -1,4 +1,7 @@
-# Dev → Sec
+---
+title: Dev → Sec
+layout: default
+---
 
 <div class="content-container">
   <div class="content-box">
@@ -13,6 +16,7 @@
     <p>In my blog, I will share insights on <strong>Cyber Threat Intelligence, Security Automation, Risk Mitigation</strong>, and <strong>emerging cybersecurity trends</strong>. Additionally, I will document my journey through my <strong>MSc in Cyber Security Engineering</strong>, discussing the key modules I studied, my master's thesis, and the valuable lessons I learned throughout the program. Stay tuned for in-depth articles and technical explorations!</p>
     <p><a href="./blog">Read My Blog</a></p>
   </div>
+
 </div>
 
 <style>

@@ -1,5 +1,7 @@
-## Contact
-
+---
+title: Contact
+layout: default
+---
 <iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=852273" style='border:none;width:100%; height:120px;'></iframe>
 
 - **GitHub**: [github.com/barrryblock](https://github.com/barrryblock)
