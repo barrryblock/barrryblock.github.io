@@ -4,12 +4,6 @@ date: "2025-09-02"
 
 ---
 
-# The Double-Edged Sword of Digital Identity: Convenience vs. Concern
-*Published: September 02, 2025*  
-*Author: John Prasad*
-
----
-
 Digital identity is increasingly being touted as a transformative force, promising efficiency and enhanced security in our interconnected world. However, as nations like the UK contemplate its widespread adoption and countries like India navigate its complexities, a critical examination reveals both its compelling benefits and significant risks, particularly concerning our reliance on phone numbers for authentication.
 
 ---
