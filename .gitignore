@@ -1,0 +1,56 @@
+# Ignore local Kubernetes configurations
+k8s-dual.yaml
+*.local.yaml
+
+Gemfile
+Gemfile.lock
+
+# Ignore Jekyll build output
+_site/
+.sass-cache/    
+.jekyll-cache/
+.bundle/
+# Ignore system files
+.DS_Store
+Thumbs.db
+# Ignore editor files
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.vscode/
+# Ignore log files
+*.log
+# Ignore dependency directories
+node_modules/
+vendor/bundle/
+# Ignore OS generated files
+ehthumbs.db
+Desktop.ini
+# Ignore coverage reports
+coverage/
+.nyc_output/
+# Ignore dotenv files
+.env
+.env.local
+.env.*.local
+# Ignore MacOS files
+.AppleDouble
+.LSOverride
+# Ignore Thumbnails
+._**
+# Ignore temporary files
+*.tmp
+*.temp
+# Ignore backup files
+*~.bak
+*.backup
+# Ignore lock files
+package-lock.json
+yarn.lock
+.pnpm-lock.yaml
+# Ignore IDE specific files
+.idea/
+*.iml
+# Ignore Python cache files
+__pycache__/                
