@@ -57,6 +57,7 @@ git worktree add ../my-blog-dev experimental-feature
 ````
 
 Now I have two folders: my-blog (Main) and my-blog-dev (Dev). I created a Kubernetes manifest with two Deployments and two Services (jekyll-main and jekyll-dev), each mounting their respective hostPath.
+
 ---
 
 ### Phase 3: The "Dependency Hell" (Ruby & Alpine)
@@ -82,6 +83,7 @@ gem "jekyll-sass-converter", "~> 2.0" # Fix for Alpine/Musl crash
 ````
 
 After deleting Gemfile.lock and restarting the pods, the sites came online.
+
 ---
 
 ### Phase 4: Networking & Ingress
@@ -116,6 +118,7 @@ spec:
 ````
 
 Now accessing http://blog.local hits the stable site, and http://dev.blog.local hits the worktree.
+
 ---
 
 ### Phase 5: Monitoring the Homelab
@@ -147,7 +150,9 @@ spec:
     - sourceLabels: [__param_target]
       targetLabel: instance
 ````
+
 ---
+
 ### The Result
 
 I now have a fully over-engineered, local development environment.
