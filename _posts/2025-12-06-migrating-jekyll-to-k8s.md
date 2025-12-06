@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Overengineering for Science: Migrating a Jekyll Blog to a Local Kubernetes Homelab"
-date: 2025-08-05
+date: 2025-12-06
 categories: [homelab, kubernetes, jekyll, monitoring]
 tags: [microk8s, grafana, git-worktree, debugging]
 ---
