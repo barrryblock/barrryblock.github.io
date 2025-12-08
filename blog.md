@@ -8,6 +8,28 @@ permalink: /blog/
 
 <p>For more details about my background and research, visit the <a href="/about">About Me</a> page.</p>
 
+<h2>Opinion Pieces</h2>
+<ul>
+  {% for post in site.posts %}
+    {% if post.categories contains "Opinion" %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a> – {{ post.date | date: "%B %d, %Y" }}
+      </li>
+    {% endunless %}
+  {% endfor %}
+</ul>
+
+<h2>Homelab Blogs</h2>
+<ul>
+  {% for post in site.posts %}
+    {% if post.categories contains "homelab" %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a> – {{ post.date | date: "%B %d, %Y" }}
+      </li>
+    {% endunless %}
+  {% endfor %}
+</ul>
+
 <h2>MSc Blogs</h2>
 <ul>
   {% for post in site.posts %}
@@ -19,17 +41,6 @@ permalink: /blog/
   {% endfor %}
 </ul>
 
-<h2>Other Blogs</h2>
-<ul>
-  {% for post in site.posts %}
-    {% unless post.categories contains "MSc" %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a> – {{ post.date | date: "%B %d, %Y" }}
-      </li>
-    {% endunless %}
-  {% endfor %}
-</ul>
->
 
 
 

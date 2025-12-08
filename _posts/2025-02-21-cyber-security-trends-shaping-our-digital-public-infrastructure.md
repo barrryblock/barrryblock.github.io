@@ -1,7 +1,7 @@
 ---
 title: "Cyber Security Trends Shaping Our Digital Public Infrastructure"
 date: 2025-02-21
-categories: [Other]
+categories: [Other, Opinion]
 ---
 
 ---
