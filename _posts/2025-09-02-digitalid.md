@@ -1,6 +1,7 @@
 ---
 title: "The Double-Edged Sword of Digital Identity: Convenience vs. Concern"
 date: "2025-09-02"
+categories: [Other, Opinion]
 
 ---
 
