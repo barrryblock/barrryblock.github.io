@@ -15,7 +15,7 @@ permalink: /blog/
       <li>
         <a href="{{ post.url }}">{{ post.title }}</a> – {{ post.date | date: "%B %d, %Y" }}
       </li>
-    {% endunless %}
+    {% endif %}
   {% endfor %}
 </ul>
 
@@ -26,7 +26,7 @@ permalink: /blog/
       <li>
         <a href="{{ post.url }}">{{ post.title }}</a> – {{ post.date | date: "%B %d, %Y" }}
       </li>
-    {% endunless %}
+    {% endif %}
   {% endfor %}
 </ul>
 
@@ -40,7 +40,3 @@ permalink: /blog/
     {% endif %}
   {% endfor %}
 </ul>
-
-
-
-

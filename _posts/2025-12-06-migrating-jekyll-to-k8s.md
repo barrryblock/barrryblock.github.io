@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Overengineering for Science: Migrating a Jekyll Blog to a Local Kubernetes Homelab"
 date: 2025-12-06
 categories: [homelab, kubernetes, jekyll, monitoring]
@@ -166,3 +165,5 @@ I now have a fully over-engineered, local development environment.
   Verification: I check dev.blog.local for changes.
 
   Monitoring: Grafana alerts me if I break the build (non-200 response)
+
+  Now that I have a static website deployed, I will now be deploying a vulnerable website ([Kubernetes GOAT](https://madhuakula.com/kubernetes-goat/)) to test my security skills in Kubernetes. 
