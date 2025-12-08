@@ -5,6 +5,8 @@ categories: [homelab, kubernetes, jekyll, monitoring]
 tags: [microk8s, grafana, git-worktree, debugging]
 ---
 
+---
+
 I am a security researcher, which means I have a natural tendency to take something simple and make it complex for the sake of learning how it breaks. 
 
 My personal blog runs on Jekyll. The standard workflow is simple: run `jekyll serve`, check `localhost:4000`, and push to Git. But I wanted to start building a proper Kubernetes homelab. I decided to make my blog the "Hello World" of this infrastructure.
