@@ -66,9 +66,9 @@ Now I have two folders: my-blog (Main) and my-blog-dev (Dev). I created a Kubern
 
 This was the hardest part of the migration. The official jekyll/jekyll:latest image recently upgraded to Ruby 3.1, which introduced two breaking changes:
 
-    Missing webrick: Ruby 3.0 removed webrick from the standard library, but Jekyll 4.2 still needs it to serve locally.
+Missing webrick: Ruby 3.0 removed webrick from the standard library, but Jekyll 4.2 still needs it to serve locally.
 
-    Architecture Mismatch: My Ubuntu host uses glibc, but the container uses Alpine Linux (musl). The modern sass-embedded compiler tries to run a binary helper that crashes in this hybrid environment.
+Architecture Mismatch: My Ubuntu host uses glibc, but the container uses Alpine Linux (musl). The modern sass-embedded compiler tries to run a binary helper that crashes in this hybrid environment.
 
 The Fix: I had to update my Gemfile to explicitly add webrick and downgrade the Sass converter to the pure-Ruby version (v2.0) to bypass the binary incompatibility.
 
@@ -157,12 +157,12 @@ spec:
 
 I now have a fully over-engineered, local development environment.
 
-    Workflow: I edit files in VS Code.
+  Workflow: I edit files in VS Code.
 
-    Pipeline: Kubernetes mounts the changes via hostPath.
+  Pipeline: Kubernetes mounts the changes via hostPath.
 
-    Engine: Jekyll hot-reloads inside the pod.
+  Engine: Jekyll hot-reloads inside the pod.
 
-    Verification: I check dev.blog.local for changes.
+  Verification: I check dev.blog.local for changes.
 
-    Monitoring: Grafana alerts me if I break the build (non-200 response)
+  Monitoring: Grafana alerts me if I break the build (non-200 response)
